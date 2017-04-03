@@ -5,38 +5,17 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="">
     <meta name="keywords" content="">
-
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>-->
 
-    <link href="<?php echo base_url('');?>layout/public/css/materialize.min.css" rel="stylesheet">
-    <link href="<?php echo base_url('');?>layout/public/css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url('');?>layout/public/css/main.css" rel="stylesheet">
     <link href="<?php echo base_url('');?>layout/public/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="<?php echo base_url('');?>layout/public/css/buttons.dataTables.min.css" rel="stylesheet">
-
-    <!--jQuery-->
-    <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/jquery-2.2.0.min.js"></script>
-    <!--Materialize-->
-    <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/materialize.min.js"></script>
-
-    <!--jQuery plugins-->
-    <!--Sticky-->
-    <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/jquery.sticky.js"></script>
-
-    <!--Data table-->
-    <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/dataTables.buttons.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/buttons.html5.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/buttons.flash.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/jszip.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/vfs_fonts.js"></script>
-    <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/pdfmake.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
     <style type="text/css"></style>
 
-    <title>PIBITI 2016</title>
+    <title>PIBITI 2017</title>
   </head>
-  <body>
+  <body id="templateAdmin">
     <div class="all">
       <a href="#" id="topo"></a>
       <div class="navbar-fixed">
@@ -63,6 +42,23 @@
     </div>
 
   </body>
+  <!--jQuery-->
+  <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/jquery-2.2.0.min.js"></script>
+  <!--Materialize-->
+  <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/materialize.min.js"></script>
+
+  <!--jQuery plugins-->
+  <!--Sticky-->
+  <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/jquery.sticky.js"></script>
+  <!--Data table-->
+  <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/buttons.html5.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/buttons.flash.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/jszip.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/vfs_fonts.js"></script>
+  <script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/pdfmake.min.js"></script>
+
   <script type="text/javascript" charset="utf-8">
   $(document).ready(function(){
     $("#sidebar").sticky({topSpacing:60});
@@ -72,5 +68,3 @@
   });
   </script>
 </html>
-
-

@@ -1,0 +1,161 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: $darkTextColor;
+  line-height:1.735;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: none;
+  @include bp(max, $smallBP) {
+    font-size: 18px;
+  }
+  code{
+    font-family: 'Fira Code';
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 1.6em;
+    font-style: normal;
+    text-align: left;
+  }
+  h1{
+    font-size: 4em;
+    font-weight: 300;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+  }
+  h2{
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+  h3{
+    font-size: 2.25em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+  }
+  h4{
+    font-size: 1.75em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em
+  }
+  h5{
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-top: 0.94em;
+    margin-bottom: 0.94em;
+  }
+  h6{
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  p,a{
+    font-family: 'Roboto Slab';
+  }
+  p{
+    margin-bottom: 1em;
+    margin-top: 0;
+    &.justify{
+      text-indent: 0;
+    }
+    &.__small{
+      font-size: 0.8em;
+    }
+    &.__large{
+      font-size: 1.4em;
+    }
+    @include bp(max, $smallBP){
+      // line-height: 1.1em;
+    }
+  }
+  blockquote{
+    color: $defaultTextColorOpaque;
+    font-family: 'Roboto Slab';
+    width: 80%;
+    margin: 1.5em auto;
+    font-weight: 300;
+  }
+  strong{
+    font-weight: 700;
+  }
+  em{
+    font-style: italic;
+  }
+  a{
+    color: $links;
+    cursor: pointer;
+    font-size: 1em;
+    &.visited{
+      color: $linksVisited;
+    }
+  }
+  a:visited{
+    color: $linksVisited;
+  }
+  ul,ol{
+    &.__paddingLess{
+      padding-left: 0;
+    }
+    &.__marginLess{
+      margin: 0;
+    }
+  }
+  ul{
+    &.__buletLess{
+      list-style: none;
+    }
+  }
+  li{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  hr{
+    border-bottom: 1px solid $grayThree;
+    border-style: ridge;
+  }
+  i{
+    user-select: none;
+  }
+  button{
+    outline: none;
+    background: none;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+.__fira{
+  font-family: 'Fira Code';
+}
+.__wib{
+  font-family: 'Modern Grotesk';
+}
+.__underline{
+  border-bottom: 2px solid #666;
+}
+.__text-underline{
+  text-decoration: underline;
+}
+.__topline{
+  margin-top: 16px;
+  border-top: 1px solid #666;
+}
+.__opaque{
+  color: #666;
+}
+.__slab{
+  font-family: 'Roboto Slab', serif;
+}
+.__slab-less{
+  font-family: 'Roboto', sans-serif;
+}
+.__small{
+  font-size: 0.75em;
+}
+.__centerText{
+  text-align: center;
+}

@@ -1,0 +1,79 @@
+#cardWrapper {
+  padding: 16px;
+  label{
+    font-size: 16px;
+  }
+  .collection {
+    margin: 0;
+  }
+  .workPlanWrapper{
+    position: relative;
+    label{
+      left: 0;
+    }
+  }
+  #submitWorkPlan{
+
+  }
+  .warningPane{
+    border-bottom: 3px solid $redFlag;
+  }
+  .proj{
+    display: block;
+    margin: 0 0 0 auto;
+    background: $mainBlue;
+    &:hover{
+      background: shade($mainBlue, 10%);
+    }
+  }
+}
+.historyContainer {
+  @extend %mediumBox;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  color: #333;
+  h5 {
+    margin-bottom: 16px;
+    margin-top: 0;
+  }
+  p{
+    margin: 0;
+  }
+  a{
+    text-decoration: underline;
+    &:visited{
+
+    }
+  }
+}
+.myFileInputContainer{
+  position: relative;
+  .btn{
+    width: 150px;
+    position: inherit;
+    z-index: 2;
+  }
+  input{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: 1;
+  }
+}
+
+.customCard {
+  padding: 16px;
+  color: white;
+  border-radius: 4px;
+  @include card(1);
+  animation: shrinkFade 0.6s ease;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  &.success {
+    background: $greenFlag;
+  }
+  &.error {
+    background: $redFlag;
+  }
+}

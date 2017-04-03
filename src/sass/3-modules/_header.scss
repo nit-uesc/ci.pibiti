@@ -1,0 +1,78 @@
+#stickyNav{
+  ul{
+    margin: 0;
+    li{
+      margin: 0;
+    }
+  }
+  a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    &:visited{
+      color: white;
+    }
+  }
+  #brand-logo{
+    font-size: 2em;
+  }
+}
+#headerTitulo{
+  .truncate{
+    font-size: 4em;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+    @include bp(min, 993px) {
+      width: 70%;
+    }
+    @include bp(max, $smallBP) {
+      width: 90%;
+    }
+  }
+}
+#docTemplate{
+  margin-top: 8px;
+  .sidebar-j{
+    display: block;
+    margin: 0 auto;
+    li{
+      &:first-child{
+        padding-left: 0;
+        margin-left: 0;
+        margin-left: -20px;
+        a:before{
+          // left: 20px;
+        }
+      }
+      padding: 5px 20px;
+      margin: 0 5px;
+      border: none;
+      a{
+        padding: 10px 20px;
+        color: #111;
+        position: relative;
+        text-align: left;
+        &:visited {
+          color: #111;
+        }
+        &:hover{
+          &:before{
+            width: 100%;
+            background: $mainBlue;
+          }
+        }
+        &:before{
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 100%;
+          z-index: -1;
+          top: 0;
+          left: 20px;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}

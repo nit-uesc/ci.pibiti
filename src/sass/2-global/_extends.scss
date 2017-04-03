@@ -1,0 +1,19 @@
+.btn{
+  @include size(auto, 45px);
+  background: $mainBlue;
+  line-height: 45px;
+  &:hover{
+    background: shade($mainBlue, 10%);
+  }
+  p{
+    font-family: "Roboto", sans-serif;
+  }
+  i{
+    margin-left: 4px;
+  }
+}
+
+%mediumBox{
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgba(0,0,0,.09);
+}

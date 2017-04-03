@@ -13,7 +13,7 @@
 				<tr><th>Formulário</th><th>Arquivo</th></tr>
 			</thead>
 			<tbody>
-				<tr><td><p>Formulário modelo para relatório PIBITI</p></td><td><a href="<?php echo base_url();?>anexos/RELATORIO_PIBIT_MODELO.rtf" class="btn">Modelo <i class="material-icons right">description</i></a></td></tr>
+				<tr><td><p>Formulário modelo para relatório PIBITI</p></td><td></td></tr>
 			</tbody>
 		</table>
 	</div>

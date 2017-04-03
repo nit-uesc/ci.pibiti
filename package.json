@@ -1,0 +1,27 @@
+{
+  "name": "pibiti2016",
+  "version": "1.0.0",
+  "description": "Apenas para compilação de sass e compressão de imagens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash ./deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reisnobre/pibiti2016.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reisnobre/pibiti2016/issues"
+  },
+  "homepage": "https://github.com/reisnobre/pibiti2016#readme",
+  "devDependencies": {
+    "flightplan": "^0.6.15",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,60 +1,99 @@
-<div class="row">
-	
-		<div class="card">
-	<form  method="post" action="<?php echo base_url('doc/plano_trabalho2');?>"   enctype="multipart/form-data">
-				<div class="card-image">
-					<img src="<?php echo base_url('layout/images/designers_copywriters_01.jpg'); ?>">
-					<span class="card-title">Plano de trabalho</span>
+<div id="planes">
+	<h4>Planos de trabalho</h4>
+	<div class="">
+		<div class="">
+			<h5>Plano de trabalho 1</h5>
+			<div class="historyContainer">
+				<h6>Ultimo lançamento</h6>
+				<?php if (isset($planos_1) && $planos_1 !== false) { ?>
+					<div class="historyItem">
+						<?php $planosArr = $planos_1->result();?>
+						<i class="material-icons">&#xE415;</i>
+						<a target="_blank" href="<?php echo base_url('./planos/'.$planosArr[0]->plano_arquivo);?>">
+							<?php echo $planosArr[0]->plano_titulo; ?>
+						</a>
+						<hr>
+						<p><?php echo $planosArr[0]->orig_name;?></p>
+					</div>
+				<?php } ?>
+			</div>
+			<form  method="post" action="<?php echo base_url('doc/plano_trabalho2');?>"   enctype="multipart/form-data">
+				<?php
+					$pData = $this->session->flashdata('resPlan1');
+					if(isset($pData) && $pData!=NULL){
+						echo $pData;
+					}
+				?>
+
+				<div class="">
+					<label for="first_name">Título do plano de trabalho 1</label>
+					<input placeholder="Plano de trabalho 1" id="titulo" name="titulo" type="text" class="validate">
+					<?php echo form_error('titulo');?>
 				</div>
-				<div class="card-content">
-				
-					<?php 
-						$data = $this->session->flashdata('data');
-						if(isset($data) && $data!=NULL){ echo "<div class=\"card-panel green\">{$data}</div>"; } 
-						else {
-							echo '	<div class="card-panel red white-text">Será aceita apenas a última versão enviada de cada plano de trabalho.</div>';
+
+
+				<input name="ordem" type="radio" id="test1"  value="1" checked/>
+				<?php echo form_error('ordem');?>
+
+				<div class="myFileInputContainer">
+					<label class="btn" for="userPlane1">Arquivo</label>
+					<input class="__invisible" type="file" name="userfile" id="userPlane1">
+				</div>
+				<div class="file-field input-field">
+					<div class="file-path-wrapper">
+						<?php if(isset($error)) echo $error;?>
+						<?php echo form_error('userfile');?>
+					</div>
+				</div>
+				<button type="submit" class="btn proj">Enviar<i class="material-icons right">send</i></button>
+			</form>
+		</div>
+		<div class="">
+			<h5>Plano de trabalho 2</h5>
+			<div class="historyContainer">
+				<h6>Ultimo lançamento</h6>
+				<?php if (isset($planos_2) && $planos_2 !== false) { ?>
+					<div class="historyItem" id="lastItem">
+						<?php $planosArr = $planos_2->result();?>
+						<i class="material-icons">&#xE415;</i>
+						<a target="_blank" href="<?php echo base_url('./planos/'.$planosArr[0]->plano_arquivo);?>">
+							<?php echo $planosArr[0]->plano_titulo; ?>
+						</a>
+						<hr>
+						<p><?php echo $planosArr[0]->orig_name;?></p>
+					</div>
+					<?php } ?>
+				</div>
+				<form  method="post" action="<?php echo base_url('doc/plano_trabalho2');?>"   enctype="multipart/form-data">
+					<?php
+						$pData = $this->session->flashdata('resPlan2');
+						if(isset($pData) && $pData!=NULL){
+							echo $pData;
 						}
 					?>
-					<br>
-					<div class="input-field col s12">
-						<input placeholder="escreva aqui" id="titulo" name="titulo" type="text" class="validate">
-						<label for="first_name">Título do Projeto</label>
+
+					<div class="">
+						<label for="first_name">Título do plano de trabalho 2</label>
+						<input placeholder="Plano de trabalho 2" id="titulo" name="titulo" type="text" class="validate">
 						<?php echo form_error('titulo');?>
 					</div>
-					<br><br>
-	
 
-	 <p>
-      <input name="ordem" type="radio" id="test1"  value="1"/>
-      <label for="test1">Plano 1</label>
-    </p>
-       <p>
-      <input name="ordem" type="radio" id="test2"  value="2"/>
-      <label for="test2">Plano 2</label>
-    </p>
-				     <?php echo form_error('ordem');?>
 
-					<br>
+					<input name="ordem" type="radio" id="test2"  value="2"checked/>
+					<?php echo form_error('ordem');?>
+
+					<div class="myFileInputContainer">
+						<label class="btn" for="userPlane2">Arquivo</label>
+						<input class="__invisible" type="file" name="userfile" id="userPlane2">
+					</div>
 					<div class="file-field input-field">
-						<div class="btn">
-							<span>Arquivo</span>
-							<input type="file" name="userfile">
-				
-						</div>
 						<div class="file-path-wrapper">
-							<input class="file-path validate" type="text"/>
-							<?php #if(isset($error)) echo $error;?>
+							<?php if(isset($error)) echo $error;?>
 							<?php echo form_error('userfile');?>
 						</div>
 					</div>
-					<span>Formato do arquivo : PDF <br> Tamanho máximo do arquivo : 10MB.</span>
-				</div>	
-				<br>
-				
-				<div class="card-action right-align">
-					<button type="submit" class="btn-flat">Enviar<i class="material-icons right">send</i></button>
-				</div>
-			</form>
-		</div>
-	
-</div>				
+					<button type="submit" class="btn proj">Enviar<i class="material-icons right">send</i></button>
+				</form>
+			</div>
+	</div>
+</div>

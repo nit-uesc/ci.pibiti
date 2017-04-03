@@ -6,18 +6,13 @@
 	<meta name="keywords" content="">
 
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="<?php echo base_url('');?>layout/public/css/style.css" rel="stylesheet">
-
-	<link href="<?php echo base_url('');?>layout/public/css/materialize.min.css" rel="stylesheet">
-
+	<link href="<?php echo base_url('');?>layout/public/css/main.css" rel="stylesheet">
 	<script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/jquery-2.2.0.min.js"></script>
-	<script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/materialize.min.js"></script>
-
 	<style type="text/css"></style>
 
-	<title>PIBITI 2016</title>
+	<title>PIBITI 2017</title>
 </head>
-<body style="background-color: #FCFDFF;">
+<body id="generalTemplate"style="background-color: #FCFDFF;">
 	<div class="all">
 	<style>
 		body{
@@ -29,8 +24,8 @@
 		.container{min-height: 500px;}
 		.nav-wrapper{background-color: #039BE5;}
 		.brand-logo{
-			left: 5% !important; 
-			-webkit-transform: none !important; 
+			left: 5% !important;
+			-webkit-transform: none !important;
 			transform:none !important;
 			position: relative;;
 		}
@@ -43,7 +38,7 @@
 		    display: none;
 		   }
 		}
-		
+
 		blockquote{
 			padding: 10px;
 			border-left: 5px solid #676767;
@@ -63,29 +58,29 @@
 	</style>
 	<a href="#" id="topo"></a>
 	<div class="navbar-fixed z-depth-0">
-		<nav class="z-depth-0" style="background-color:#039BE5;">
+		<nav class="z-depth-0" id="stickyNav">
 			<div class="nav-wrapper z-depth-0">
 				<a href="<?php echo base_url('');?>home/index" class="brand-logo" id="brand-logo">PIBITI<small> UESC</small></a>
 				<a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="<?php echo base_url('');?>home/index">Home</a></li>
 					<li><a href="<?php echo base_url('');?>home/cadastro">Cadastro</a></li>
-					<li><a href="<?php echo base_url('');?>home/cronograma">Cronograma</a></li>
-					<li><a href="<?php echo base_url('');?>home/edital">Edital</a></li>     
+					<!-- <li><a href="<?php echo base_url('');?>home/cronograma">Cronograma</a></li> -->
+					<li><a href="<?php echo base_url('');?>home/edital">Edital</a></li>
 					<li><a href="<?php echo base_url('');?>home/resultados2016">Resultados</a></li>
-					<li><a href="<?php echo base_url('');?>home/relatorios">Relatórios</a></li>
+					<!-- <li><a href="<?php echo base_url('');?>home/relatorios">Relatórios</a></li> -->
 					<li><a href="<?php echo base_url('');?>login">Login</a></li>
-				</ul>	
+				</ul>
 			</div>
 		</nav>
 	</div>
 	<ul class="side-nav" id="mobile-demo">
 		<li><a href="<?php echo base_url('');?>home/index">Home</a></li>
 		<li><a href="<?php echo base_url('');?>home/cadastro">Cadastro</a></li>
-		<li><a href="<?php echo base_url('');?>home/cronograma">Cronograma</a></li>
-		<li><a href="<?php echo base_url('');?>home/edital">Edital</a></li>     
+		<!-- <li><a href="<?php echo base_url('');?>home/cronograma">Cronograma</a></li> -->
+		<li><a href="<?php echo base_url('');?>home/edital">Edital</a></li>
 		<li><a href="<?php echo base_url('');?>home/resultados2015">Resultados</a></li>
-		<li><a href="<?php echo base_url('');?>home/relatorios">Relatórios</a></li>
+		<!-- <li><a href="<?php echo base_url('');?>home/relatorios">Relatórios</a></li> -->
 		<li><a href="<?php echo base_url('');?>login">Login</a></li>
 	</ul>
 	<?php if (isset($titulo)): ?>
@@ -95,18 +90,8 @@
 	<?php endif ?>
 
 	<div class="container">
-		<?php $this->load->view($tela);?> 
+		<?php $this->load->view($tela);?>
 	</div>
-
-<!-- 
-	<div class="footer-copyright">
-        <div class="row">
-        	<div class="col s12 ">
-        		<a class="grey-text text-lighten-4 left" href="http://nit.uesc.br">NIT-UESC <span class="hide-on-small-only">| Núcleo de Inovação Tecnológica</span></a> 
-        		<a class="grey-text text-lighten-4 right" href=""></a>
-      		</div>
-        </div>
-     </div> -->
 </div>
   	<a id="scrollup" class="btn-floating btn-large waves-effect waves-light teal tooltipped" data-position="left" data-delay="50" data-tooltip="voltar ao topo"><i class="material-icons" style="vertical-align: middle;">keyboard_arrow_up</i></a>
 	<style>
@@ -119,7 +104,8 @@
 		    display: none;
 		}
 	</style>
-	<script> 
+	<script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/materialize.min.js"></script>
+	<script>
 		$(".button-collapse").sideNav({edge: 'right'});
 
 		var brandlogo = document.querySelector("#brand-logo");
@@ -139,7 +125,7 @@
 		   		// $('#headerTitulo').fadeIn();
 		   	};
 		   	var porcentagemScroll = scrollAtual / tamanhoScroll;
-		   	
+
 		   	if ($(this).scrollTop() > 70) {
 	            $('#scrollup').fadeIn();
 	        } else {
@@ -152,7 +138,7 @@
 	            scrollTop: 0
 	        }, 600);
 	        return false;
-		});
+	    	});
 		}
 
 	</script>
