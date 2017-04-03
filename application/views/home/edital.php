@@ -392,6 +392,6 @@
 		<p><strong>PRODUÇÃO</strong></p>
 		<p>Utilizar citação bibliografia informada</p>
 		<p><strong>PERÍODO DE PRODUÇÃO</strong></p>
-		<p>Desde o ano de 2013</p>
+		<p>Desde o ano de 2014</p>
 	</div>
 </div>

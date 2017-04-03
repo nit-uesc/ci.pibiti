@@ -20,11 +20,11 @@ class Home extends CI_Controller {
 	public function cadastro()
 	{
 		$now = time();
-		$end = strtotime('2016-05-13 23:59');
+		$end = strtotime('2017-05-12 23:59');
 
 		// Pode cadastrar
-		//if($now < $end)
-		if(true)
+		if($now < $end)
+		// if(true)
 		{
 			$dados['tela']='/home/cadastro';
 			$this->load->helper('security');

@@ -64,11 +64,11 @@ class Doc extends CI_Controller {
 	{
 		// Por data aqui
 		$now = time();
-		$end = strtotime('2016-05-13 14:40');
+		$end = strtotime('2017-05-12 23:59');
 
 		// Pode cadastrar
-		//if($now < $end)
-		if(true)
+		// if(true)
+		if($now < $end)
 		{
 			$this->load->helper(array('form', 'url'));
 
