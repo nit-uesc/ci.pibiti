@@ -227,13 +227,13 @@
 		<p class="justify">
 			8.1. Para efeito de contagem de pontos deste Edital serão consideradas as informações apresentadas pelo proponente, podendo, a critério do Comitê Externo e/ou do NIT - UESC ser solicitado(s) comprovante(s) das informações curriculares e outros documentos que se fizerem necessários.</p>
 		<p class="justify">
-			8.2. A pontuação do Orientador obedecerá ao estabelecido no quadro disponível no site: <a target="_blank" href="http://nit.uesc.br/pibiti2017">nit.uesc.br/pibiti2017</a> de forma não cumulativa, com peso igual a 25%, a ser avaliada pelo Comitê Institucional/NIT - UESC. Serão consideradas produções nos últimos 3 (três) anos, a partir de 2014 na área de conhecimento, divulgada nos principais veículos de comunicação da área.
+			8.2. A pontuação do Orientador obedecerá ao estabelecido no quadro disponível no site: <a href="#orientadorBarema">nit.uesc.br/pibiti2017</a> de forma não cumulativa, com peso igual a 25%, a ser avaliada pelo Comitê Institucional/NIT - UESC. Serão consideradas produções nos últimos 3 (três) anos, a partir de 2014 na área de conhecimento, divulgada nos principais veículos de comunicação da área.
 		</p>
 		<p class="justify">
-			8.3. A pontuação do projeto obedecerá ao estabelecido no quadro disponível no site: <a target="_blank" href="http://nit.uesc.br/pibiti2017">nit.uesc.br/pibiti2017</a>, de forma não cumulativa, com peso igual a 25% a ser avaliada pelo Comitê Institucional/NIT.
+			8.3. A pontuação do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#projetoBarema">nit.uesc.br/pibiti2017</a>, de forma não cumulativa, com peso igual a 25% a ser avaliada pelo Comitê Institucional/NIT.
 		</p>
 		<p class="justify">
-			8.4. A pontuação qualitativa do projeto obedecerá ao estabelecido no quadro disponível no site: <a target="_blank" href="http://nit.uesc.br/pibiti2017">nit.uesc.br/pibiti2017</a>, de forma cumulativa, com peso igual a 50%, e será feita pelo Comitê Externo do CNPq
+			8.4. A pontuação qualitativa do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#avaliacaoBarema">nit.uesc.br/pibiti2017</a>, de forma cumulativa, com peso igual a 50%, e será feita pelo Comitê Externo do CNPq
 		</p>
 		<p class="justify">
 			8.5. A proposta que obtiver nota inferior a 5,00 (cinco), na avaliação qualitativa, será desclassificada.
@@ -271,37 +271,41 @@
 		</p>
 		<hr>
 		<h3>***</h3>
-		<h5>Barema do Orientador</h5>
-		<table class="bordered striped">
-			<thead>
-				<tr>
-					<th>Orientador</th>
-					<th>Pontuação</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Com bolsa de produtividade em Desenvolvimento Tecnológico e Extensão Inovadora (DT) ou em Pesquisa (PQ), ou registro de um software, ou depósito de patentes, ou proteção de cultivares nos últimos 4 anos</td>
-					<td>5</td>
-				</tr>
-				<tr>
-					<td>Produção média acima de 1 artigo científico/ano em Qualis A nos últimos 4 anos</td>
-					<td>4</td>
-				</tr>
-				<tr>
-					<td>Produção média entre 1 e 0,6 artigo científicos/ano em Qualis A nos últimos 4 anos</td>
-					<td>3</td>
-				</tr>
-				<tr>
-					<td>Produção média acima de e 1,0 artigo científico/ano em Qualis A ou B nos últimos 4 anos</td>
-					<td>2</td>
-				</tr>
-				<tr>
-					<td>Produção média acima de 0,5 artigo científico/ano em Qualis A ou B, ou livro/capítulo de livro nos últimos 4 anos</td>
-					<td>1</td>
-				</tr>
-			</tbody>
-		</table>
+		<div id="orientadorBarema" class="target"></div>
+		<div>
+			<h5>Barema do Orientador</h5>
+			<table class="bordered striped">
+				<thead>
+					<tr>
+						<th>Orientador</th>
+						<th>Pontuação</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Com bolsa de produtividade em Desenvolvimento Tecnológico e Extensão Inovadora (DT) ou em Pesquisa (PQ), ou registro de um software, ou depósito de patentes, ou proteção de cultivares nos últimos 4 anos</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>Produção média acima de 1 artigo científico/ano em Qualis A nos últimos 4 anos</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>Produção média entre 1 e 0,6 artigo científicos/ano em Qualis A nos últimos 4 anos</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>Produção média acima de e 1,0 artigo científico/ano em Qualis A ou B nos últimos 4 anos</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td>Produção média acima de 0,5 artigo científico/ano em Qualis A ou B, ou livro/capítulo de livro nos últimos 4 anos</td>
+						<td>1</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="projetoBarema" class="target"></div>
 		<h5>Barema do Projeto</h5>
 		<table class="bordered striped">
 			<thead>
@@ -332,6 +336,7 @@
 				</tr>
 			</tbody>
 		</table>
+		<div id="avaliacaoBarema" class="target"></div>
 		<h5>Avaliação qualitativa</h5>
 		<table class="bordered striped">
 			<thead>

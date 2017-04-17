@@ -19,12 +19,17 @@
     <div class="all">
       <a href="#" id="topo"></a>
       <div class="navbar-fixed">
-        <nav style="background-color:#039BE5;">
+        <nav style="background-color:#039BE5;" class="templateNav" id="stickyNav">
           <div class="nav-wrapper">
             <a href="<?php echo base_url('');?>home/index" class="brand-logo" id="brand-logo">PIBITI<small> UESC</small></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-              <li><a href="#">Olá, <?php echo $this->session->userdata('login'); ?></a></li>
+              <li><a href="<?php echo base_url('admin/index'); ?>">Home</a></li>
+              <li><a href="<?php echo base_url('admin/projeto'); ?>">Projetos</a></li>
+              <li><a href="<?php echo base_url('admin/plano_trabalho'); ?>">Planos de Trabalho</a></li>
+              <li><a href="<?php echo base_url('admin/cadastro_avaliador'); ?>">Cadastro Avaliador</a></li>
+              <li><a href="<?php echo base_url('admin/resultados'); ?>">Resultados</a></li>
+              <li><a href="<?php echo base_url('login/logout'); ?>">Sair</a></li>
             </ul>
           </div>
         </nav>
@@ -32,10 +37,9 @@
 
       <div class="container content-mini-material">
         <div class="row">
-          <div class="col s12 m9 l9">
+          <div class="col s12 m12 l12">
             <?php $this->load->view($tela);?>
           </div>
-          <?php $this->load->view('sidebar_admin'); ?>
         </div>
       </div>
 

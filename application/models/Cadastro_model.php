@@ -78,8 +78,7 @@ class Cadastro_model extends CI_Model {
 
 	public function cadastro_avaliador($avaliador=NULL)
 	{
-		if($avaliador!=NULL):
-
+		if($avaliador!=NULL) {
 			$usuario['usu_login'] = $avaliador['email'];
 			$usuario['usu_senha'] = $avaliador['senha'];
 			$usuario['type'] 	  = 3;
@@ -97,9 +96,10 @@ class Cadastro_model extends CI_Model {
 			$this->db->insert('docente', $docente);
 
 			return true;
-		endif;
-		return false;
-	}
+		} else {
+			return false;
+		}
 
+	}
 }
 ?>

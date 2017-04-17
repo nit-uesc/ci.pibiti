@@ -69,28 +69,29 @@ class Admin extends CI_Controller {
 		$this->load->helper('string');
 		$this->form_validation->set_error_delimiters('<p class="red-text">* ', '</p>');
 
-		$this->form_validation->set_rules('nome', 'NOME', 'trim|required|min_lenght[10]');
+		$this->form_validation->set_rules('nome', 'NOME', 'required|trim|min_length[10]',
+			array('min_lenght' => 'O campo nome deve ter o mínimo de 10 caracteres'));
 		$this->form_validation->set_rules('email', 'EMAIL', 'trim|required|valid_email|is_unique[usuario.usu_login]');
-		$this->form_validation->set_rules('tipo_avaliador', 'TIPO AVALIDOR', 'required|numeric');
-
-		if($this->form_validation->run() == TRUE):
-
+		$this->form_validation->set_rules('tipo_avaliador', 'TIPO AVALIDOR', 'required');
+		// var_dump($this->input->post('email'));
+		// var_dump($this->input->post('tipo_avaliador'));
+		// var_dump(strlen($this->input->post('nome')) > 10);
+		// var_dump($this->form_validation->run());
+		// return;
+		if ($this->form_validation->run() == TRUE) {
 			$password = random_string('numeric', 8);
-
 			$avaliador['nome']  = $this->input->post('nome');
 			$avaliador['email'] = $this->input->post('email');
 			$avaliador['senha'] = sha1($password);
 			$avaliador['tipo_avaliador'] = $this->input->post('tipo_avaliador');
-
-			if($this->cadastro_model->cadastro_avaliador($avaliador)):
-
+			if ($this->cadastro_model->cadastro_avaliador($avaliador)) {
 				$email_data['email'] 	= $avaliador['email'];
 				$email_data['assunto'] 	= 'AVALIADOR PIBITI/UESC 2016';
 				$email_data['mensagem'] = "
 
 					Olá, ".$avaliador['nome']."!
 					<br><br>
-					Você foi cadastrado como avaliador no PIBITI 2016.
+					Você foi cadastrado como avaliador no PIBITI 2017.
 					<br><br>
 					Segue abaixo os seus dados de acesso:
 					<br>
@@ -104,18 +105,15 @@ class Admin extends CI_Controller {
 					<br>
 					PIBITI 2016
 				";
-
-				if($this->email_model->sistema_email($email_data)):
+				if ($this->email_model->sistema_email($email_data)) {
 					$data['success'] = 'Avaliador cadastrado com sucesso! :)';
-				else:
+				} else {
 					$data['error'] = 'Avaliador cadastrado, mas o email com dados de acesso NÃO pôde ser enviado. Contate o administrador do sistema.';
-				endif;
-			else:
+				}
+			} else {
 				$data['error'] = 'Oops... Ocorreu um erro ao adicionar o avaliador. :X';
-			endif;
-
-		endif;
-
+			}
+		}
 		$data['avaliadores'] = $this->cadastro_model->get_avaliadores();
 		$data['tipo_avaliador'] = $this->cadastro_model->get_tipos_avaliador();
 		$data['tela'] = '/admin/cadastro_avaliador';

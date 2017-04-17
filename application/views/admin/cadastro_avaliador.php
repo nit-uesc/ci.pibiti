@@ -27,15 +27,13 @@
         </div>
 
         <div class="input-field col s12">
-          <?php
-            $options = array();
-            foreach ($tipo_avaliador as $row):
-              $options[$row->id] = $row->nome;
-            endforeach;
-            echo form_dropdown('tipo_avaliador', $options, set_value('tipo_avaliador'));
-          ?>
           <label>Tipo de Avaliador</label>
-          <?php echo form_error('tipo_avaliador'); ?>
+          <select class="typeofAvaliator" name="tipo_avaliador">
+            <?php foreach ($tipo_avaliador as $row) { ?>
+              <option value="<?php echo($row->id) ?>"><?php echo($row->nome) ?></option>
+            <?php } ?>
+          </select>
+
         </div>
 
         <div class="col s12">

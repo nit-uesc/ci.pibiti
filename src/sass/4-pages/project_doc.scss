@@ -61,7 +61,6 @@
     z-index: 1;
   }
 }
-
 .customCard {
   padding: 16px;
   color: white;
@@ -76,4 +75,10 @@
   &.error {
     background: $redFlag;
   }
+}
+
+.target{
+  height: 64px;
+  width: 100%;
+  // background: pink;
 }

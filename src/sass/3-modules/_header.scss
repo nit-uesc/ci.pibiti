@@ -1,4 +1,4 @@
-#stickyNav{
+#stickyNav, .templateNav{
   ul{
     margin: 0;
     li{
@@ -10,7 +10,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     &:visited{
-      color: white;
+      color: white !important;
     }
   }
   #brand-logo{
@@ -31,9 +31,9 @@
     }
   }
 }
-#docTemplate{
+#docTemplate, .template{
   margin-top: 8px;
-  .sidebar-j{
+  ul{
     display: block;
     margin: 0 auto;
     li{
