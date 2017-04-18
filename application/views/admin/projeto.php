@@ -13,11 +13,19 @@
     <?php $i = 0; ?>
     <?php foreach ($projetos->result() as $projeto): ?>
     <tr>
-      <td><small><?php echo $projeto->doc_nome;?></small></td>
-      <td><small><?php echo $projeto->proj_titulo;?></small></td>
-      <td><small><a target="_blank" href="<?php echo base_url('uploads/'.$projeto->proj_arquivo);?>">Visualizar</a></small></td>
-      <td><small><?php echo $projeto->proj_data;?></small></td>
-    </tr>		
+      <td>
+        <p><?php echo $projeto->doc_nome;?></p>
+      </td>
+      <td>
+        <p><?php echo $projeto->proj_titulo;?></p>
+      </td>
+      <td>
+        <p><a target="_blank" href="<?php echo base_url('uploads/'.$projeto->proj_arquivo);?>">Visualizar</a></p>
+      td>
+      <td>
+        <p><?php echo $projeto->proj_data;?></p>
+      </td>
+    </tr>
     <?php endforeach;?>
   </tbody>
 </table>

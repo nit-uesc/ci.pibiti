@@ -70,7 +70,7 @@ class Admin extends CI_Controller {
 		$this->form_validation->set_error_delimiters('<p class="red-text">* ', '</p>');
 
 		$this->form_validation->set_rules('nome', 'NOME', 'required|trim|min_length[10]',
-			array('min_lenght' => 'O campo nome deve ter o mínimo de 10 caracteres'));
+			array('min_length' => 'O campo nome deve ter o mínimo de 10 caracteres'));
 		$this->form_validation->set_rules('email', 'EMAIL', 'trim|required|valid_email|is_unique[usuario.usu_login]');
 		$this->form_validation->set_rules('tipo_avaliador', 'TIPO AVALIDOR', 'required');
 		// var_dump($this->input->post('email'));

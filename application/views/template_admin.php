@@ -34,7 +34,14 @@
           </div>
         </nav>
       </div>
-
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="<?php echo base_url('admin/index'); ?>">Home</a></li>
+        <li><a href="<?php echo base_url('admin/projeto'); ?>">Projetos</a></li>
+        <li><a href="<?php echo base_url('admin/plano_trabalho'); ?>">Planos de Trabalho</a></li>
+        <li><a href="<?php echo base_url('admin/cadastro_avaliador'); ?>">Cadastro Avaliador</a></li>
+        <li><a href="<?php echo base_url('admin/resultados'); ?>">Resultados</a></li>
+        <li><a href="<?php echo base_url('login/logout'); ?>">Sair</a></li>
+    	</ul>
       <div class="container content-mini-material">
         <div class="row">
           <div class="col s12 m12 l12">
@@ -69,6 +76,7 @@
     var url = window.location.href;
     var link = $('a[href$="' + url + '"]');
     link.addClass('active');
+    $(".button-collapse").sideNav({edge: 'right'});
   });
   </script>
 </html>
