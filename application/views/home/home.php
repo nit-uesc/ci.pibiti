@@ -57,5 +57,5 @@
 
 <h3>Modelos</h3>
 
-<a href="<?php echo base_url();?>anexos/Modelo Relatorio Parcial_PIBITI_ 2018-2019_UESC.docx" class="btn">Relatório Parcial <i class="material-icons right">description</i></a>
-<a href="<?php echo base_url();?>anexos/Modelo Relatorio Final_PIBITI_ 2018-2019_UESC.docx" class="btn">Relatório Final <i class="material-icons right">description</i></a>
+<a href="<?php echo base_url();?>anexos/17c8c9dfc67600bea4c91ee4bb79d3d7.docx" class="btn">Relatório Parcial <i class="material-icons right">description</i></a>
+<a href="<?php echo base_url();?>anexos/29ff0d36e8f7babc1d3ac6b6385677ec.docx" class="btn">Relatório Final <i class="material-icons right">description</i></a>

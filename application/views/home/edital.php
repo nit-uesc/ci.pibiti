@@ -173,8 +173,8 @@
 		<hr>
 		<p class="center-align">
 			<br class="hide-on-med-and-up">
-			<a target="_blank" href="<?php echo base_url('anexos/ANEXOI.rtf'); ?>" class="btn">Anexo I (projeto)</a>
-			<a target="_blank" href="<?php echo base_url('anexos/ANEXOII.rtf'); ?>" class="btn">Anexo II (plano)</a>
+			<a target="_blank" href="<?php echo base_url('anexos/acc4b74467f63f28ba56294621142d8c.rtf'); ?>" class="btn">Anexo I (projeto)</a>
+			<a target="_blank" href="<?php echo base_url('anexos/cba4fea378e39a78da40a4a9e71c23e9.rtf'); ?>" class="btn">Anexo II (plano)</a>
 			<br class="hide-on-med-and-up">
 			<br class="hide-on-med-and-up">
 			<br class="hide-on-med-and-up">
@@ -240,7 +240,8 @@
 			9.1. Para implementação das bolsas, uma vez aprovadas, serão necessários os seguintes documentos <strong>impressos</strong>:
 		</p>
 		<p class="justify">
-			9.1.1.Termo de Compromisso e Ficha de Cadastro do bolsista (Disponíveis em <a target="_blank" href="http://nit.uesc.br/pibiti">http://nit.uesc.br/pibiti</a>) assinados pelo orientador e pelo bolsista;
+			9.1.1.Termo de Compromisso e Ficha de Cadastro do bolsista (Disponíveis <a href= "<?php echo base_url('/anexos/662aef013926059aeb8b160f811959cf.docx');?>"><b>aqui</b></a>)
+ 			assinados pelo orientador e pelo bolsista;
 		</p>
 		<p class="justify">
 			9.1.2. Histórico escolar do bolsista com CRAA e Comprovante de matrícula 2018 assinado pela instituição;
