@@ -135,10 +135,10 @@ class Home extends CI_Controller {
 		$dados['tela']='/home/resultados2015';
 		$this->load->view('template', $dados);
 	}
-	public function resultados2016()
+	public function resultados2018()
 	{
 		$dados['titulo']='Resultados';
-		$dados['tela']='/home/resultados2016';
+		$dados['tela']='/home/resultados2018';
 		$this->load->view('template', $dados);
 	}
 	public function relatorios()

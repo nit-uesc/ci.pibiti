@@ -1,38 +1,80 @@
 <br>
 <div class="row">
 	<div class="col s12">
-		<h3>Edital Nº 40</h4>
-		<p class="justify">A Reitora da Universidade Estadual de Santa Cruz – UESC, torna pública a abertura de inscrições para o PROGRAMA DE INICIAÇÃO CIENTÍFICO-TECNOLÓGICA DA UESC 2017-2018. Regulamenta o presente Edital a Resolução Normativa N°017/2006 do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Resolução CONSEPE/UESC N° 081/2014, decisões do Comitê Institucional/NIT UESC e do Comitê Externo/CNPq.</p>
+		<h3>Edital Nº XX</h4>
+		<p class="justify">A Reitora da Universidade Estadual de Santa Cruz – UESC, torna pública a abertura de inscrições para o <b>PROGRAMA DE INICIAÇÃO CIENTÍFICO-TECNOLÓGICA DA UESC 2018-2019</b>. Regulamenta o presente Edital a Resolução Normativa N°017/2006 do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Resolução CONSEPE/UESC N° 081/2014, decisões do Comitê Institucional/NIT UESC e do Comitê Externo/CNPq.</p>
 
 		<h4>1. Objetivos</h4>
 		<p class="justify">
-			1.1. Estimular os discentes da Universidade ao desenvolvimento e transferência de tecnologias e inovação.
+			a) Contribuir para a formação e inserção de estudantes em atividades de pesquisa em <b>desenvolvimento tecnológico, inovação e de interesse social</b>;
 		</p>
 		<p class="justify">
-			1.2. Iniciar os discentes no domínio e/ou no desenvolvimento de técnicas e métodos científicos e sua aplicação em pesquisa tecnológica, passíveis de interesse social ou de mercado, incluindo a estruturação de sistemas locais de inovação;
+			b) Contribuir para a formação de recursos humanos que se dedicarão ao fortalecimento da <b>capacidade inovadora das empresas</b>, em busca da possibilidade de transferência de tecnologia;
 		</p>
 		<p class="justify">
-			1.3. Propiciar condições institucionais para o atendimento aos projetos de pesquisa e a transferência de tecnologia, fortalecendo as várias áreas de conhecimento e estimulando a produção científico-tecnológica discente;
+			c) Possibilitar o desenvolvimento de projetos tecnológicos e de inovação direcionados ao <b>depósito de patentes no INPI</b>; assim como o registro de softwares, marcas, desenho industrial e indicação Geográfica no INPI, ou órgãos equivalentes, e a proteção de cultivares registrado no MAPA.
 		</p>
 		<p class="justify">
-			1.4. Estimular o desenvolvimento tecnológico e a criatividade decorrentes das condições criadas pelo confronto direto das necessidades de mercado com os problemas de pesquisa, em conformidade com a definição de inovação tecnológica constante no “Manual de Oslo”, a saber: “A inovação é definida como a implementação de um produto (bem ou serviço) novo ou significativamente melhorado, ou um processo, ou um novo método de marketing, ou um novo método organizacional nas práticas de negócios, na organização do local de trabalho ou nas relações externas.” (íntegra disponível em: <a target="_blank" href="http://www.uesc.br/nucleos/nit">http://www.uesc.br/nucleos/nit)</a>).
+			i. A Inovação Tecnológica ocorre quando o resultado de uma pesquisa, expresso em termos de novos produtos, e/ou processos, são transferidos e implementados ao setor produtivo, gerando benefícios à sociedade. Para tanto, neste edital, a inovação tecnológica será entendida como produto(s) ou processo(s) que gere(m) produtos tangíveis, que atendam aos requisitos de atividade inventiva, novidade e aplicação industrial.
+		</p>
+		<p class="justify">
+			ii. A Inovação Social concebe projetos que promovem a transformação social associando a sustentabilidade, o desenvolvimento humano e a educação. Trata-se de projetos para o desenvolvimento de processos e produtos que permitam a inclusão social, geração de trabalho e renda e, sobretudo, promovam a qualidade de vida das pessoas.
 		</p>
 
-		<h4>2. Bolsa</h4>
+		<h4>2. Inscrição e Cronograma</h4>
 		<p class="justify">
-			2.1. O presente Edital visa a distribuição de bolsas de iniciação científico-tecnológica, que tem como fonte pagadora CNPQ e UESC.
+			a) As inscrições deverão ser realizadas através do sistema PIBITI/UESC, de acordo com o cronograma a seguir:
+		</p>
+		<table class="striped bordered">
+			<thead>
+				<tr>
+					<th>Atividades</th>  <th>Datas</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Lançamento   do Edital</td>
+					<td>16 de abril de 2018</td>
+				</tr>
+				<tr>
+					<td>Cadastro   do orientador </td>
+					<td>23 de abril a 28 de maio de 2018</td>
+				</tr>
+				<tr>
+					<td>Encaminhamento    de proposta(s) </td>
+					<td>23 de abril a 28 de maio de 2018</td>
+				</tr>
+				<tr>
+					<td>Divulgação    do resultado preliminar</td>
+					<td>19 de junho de 2018</td>
+				</tr>
+				<tr>
+					<td>Pedido    de reconsideração </td>
+					<td>20 e 21 de junho de 2018</td>
+				</tr>
+				<tr>
+					<td>Divulgação    do resultado final</td>
+					<td>22 de junho de 2018 </td>
+				</tr>
+				<tr>
+					<td>Indicação do bolsista e entrega de documentação </td>
+					<td>03 a 13 de julho de 2018</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h4>3. Bolsas e sua Natureza</h4>
+		<p class="justify">
+			3.1. O presente Edital visa a distribuição de bolsas de iniciação científico-tecnológica, que tem como fonte pagadora CNPQ* e UESC.
 		</p>
 		<p class="justify">
-			2.2. A bolsa terá vigência de até 12 (doze) meses, com início previsto em 1º de agosto de 2017 e término em 31 de julho de 2018, não podendo ultrapassar a data da finalização da graduação, quando se tratar de bolsista formando.
+			3.2. A bolsa terá vigência de até 12 (doze) meses, com início previsto em 1º de agosto de 2018 e término em 31 de julho de 2019, não podendo ultrapassar a data da finalização da graduação, quando se tratar de bolsista formando.
 		</p>
 		<p class="justify">
-			2.3. As bolsas de iniciação científico-tecnológica serão atribuídas preferencialmente aos orientadores que já desenvolvam projetos na área tecnológica.
+			3.3. As bolsas podem ser acumuláveis apenas com bolsas de permanência/ manutenção/assistência estudantil.
 		</p>
 		<p class="justify">
-			2.4. As bolsas podem ser acumuláveis apenas com bolsas de permanência/ manutenção/assistência estudantil.
-		</p>
-		<p class="justify">
-			2.5. A cota institucional e o valor das bolsas são apresentados na tabela baixo:
+			3.4. A cota institucional e o valor das bolsas são apresentados na tabela baixo:
 		</p>
 		<table class="striped bordered s10 offset-s1">
 			<thead>
@@ -46,90 +88,47 @@
 			<tbody>
 				<tr>
 					<td>CNPq</td>
-					<td>01/08/17 a 31/07/18</td>
-					<td>9</td>
+					<td>01/08/18 a 31/07/19</td>
+					<td>-*</td>
 					<td>400,00</td>
 				</tr>
 				<tr>
 					<td>ICTB/UESC</td>
-					<td>01/08/17 a 31/07/18</td>
+					<td>01/08/18 a 31/07/19</td>
 					<td>10</td>
 					<td>400,00</td>
 				</tr>
 			</tbody>
 		</table>
-
-		<h4>3. Calendário</h4>
-		<p class="justify">
-			3.1. As inscrições para bolsas de Iniciação Científico-Tecnológica da UESC serão realizadas pelo docente/pesquisador da UESC nas datas estabelecidas no calendário abaixo.
-		</p>
-		<table class="striped bordered">
-			<thead>
-				<tr>
-					<th>Atividades</th>  <th>Datas</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Lançamento do Edital</td>
-					<td>03 de abril de 2017</td>
-				</tr>
-				<tr>
-					<td>Cadastro    do orientador </td>
-					<td>03 de abril a 12 de maio de 2017</td>
-				</tr>
-				<tr>
-					<td>Encaminhamento    de proposta(s) </td>
-					<td>03 de abril a 12 de maio de 2017</td>
-				</tr>
-				<tr>
-					<td>Divulgação    do resultado preliminar</td>
-					<td>5 de junho de 2017</td>
-				</tr>
-				<tr>
-					<td>Pedido    de reconsideração </td>
-					<td>6 junho de 2017</td>
-				</tr>
-				<tr>
-					<td>Divulgação    do resultado final</td>
-					<td>8 de junho de 2017 </td>
-				</tr>
-			</tbody>
-		</table>
+		<h6>* <i>a cota institucional do CNPq está dependente da liberação.</i></h6>
 
 		<h4>4. Requisitos, Compromissos e Direitos do Orientador</h4>
 		<p class="justify">
-			4.1. Ser docente, pesquisador ou bolsista de pesquisa (PRODOC, DTR, DCT, DCR) da UESC em regime de Tempo Integral ou Dedicação Exclusiva, estar ativo no momento de implementação da bolsa de ICT e durante toda a sua vigência.
+			4.1. Ser docente, pesquisador ou bolsista de pesquisa (PRODOC, DTR, DCT, DCR) da UESC em regime de Tempo Integral ou Dedicação Exclusiva, estar ativo no momento de implementação da bolsa de IT e durante toda a sua vigência.
 		</p>
 		<p class="justify">
-			4.2. Possuir experiência em atividades de geração e transferência de tecnologia.
+			4.2. Ter produção científica, tecnológica ou artístico-cultural nos últimos 4 (quatro) anos, <b>a partir de 2014</b> na área de conhecimento, divulgada nos principais veículos de comunicação da área.
 		</p>
 		<p class="justify">
-			4.3. Quanto ao recebimento das bolsas, os pesquisadores de reconhecida competência científica/tecnológica deverão ter precedência em relação aos demais. Bolsistas de Produtividade em Pesquisa e em Desenvolvimento Tecnológico e Extensão Inovadora do CNPq, por definição, têm reconhecida competência científica/ tecnológica.
+			4.3. Possuir experiência em atividades de geração e transferência de tecnologia e conhecimentos para empresas e/ou para a sociedade em geral.
 		</p>
 		<p class="justify">
-			4.4. Cabe ao orientador escolher e indicar, para bolsista, o aluno com perfil e desempenho acadêmicos compatíveis com as atividades previstas observando princípios éticos e conflito de interesse.
+			4.4. Escolher para bolsista, o aluno com perfil e desempenho acadêmico compatíveis com as atividades previstas observando princípios éticos e conflito de interesse.
 		</p>
 		<p class="justify">
-			4.5. O orientador poderá, com justificativa, solicitar a exclusão de um bolsista, podendo indicar novo aluno para a vaga, desde que satisfeitos os prazos operacionais adotados pela instituição.
+			4.5. Indicar o bolsista, no caso de aprovação da cota, durante o período definido no cronograma.
 		</p>
 		<p class="justify">
-			4.6. O pesquisador deverá incluir o nome do bolsista nas publicações e nos trabalhos apresentados em congressos e seminários, cujos resultados tiveram a participação efetiva do bolsista.
+			4.6. O orientador poderá, com justificativa, solicitar a substituição de um bolsista, podendo indicar novo aluno para a vaga, desde que satisfeitos os prazos operacionais adotados pela instituição.
 		</p>
 		<p class="justify">
-			4.7. É vedada a divisão da mensalidade de uma bolsa entre dois ou mais alunos.
+			4.7. O pesquisador deverá incluir o nome do bolsista e da instituição fomentadora nas publicações e nos trabalhos apresentados em congressos e seminários, cujos resultados tiveram a participação efetiva do bolsista.
 		</p>
 		<p class="justify">
-			4.8. O orientador e o bolsista deverão participar do curso de Introdução à Proteção Intelectual com duração de 4 horas, para efetivação da bolsa, a ser ministrado em data a ser definida pelo NIT – UESC, ou outro que o NIT reconheça como equivalente.
+			4.8. Orientar o bolsista nas distintas fases do projeto, incluindo a elaboração e envio do Relatório Parcial e Final, apresentação dos resultados do projeto no “Seminário de Iniciação Científica e Inovação da UESC” e em congressos ou seminários correlatos, destacando o apoio do PIBITI/CNPq ou ICTB/UESC.
 		</p>
 		<p class="justify">
-			4.9. Entrega do Relatório Semestral (parcial) e Final seguindo o roteiro a ser disponibilizado e data a ser estabelecida pelo NIT da UESC.
-		</p>
-		<p class="justify">
-			4.10. Confecção de resumo e participação do orientador e do bolsista nos Seminários de Iniciação Científica da UESC.
-		</p>
-		<p class="justify">
-			4.11. A não apresentação do Resumo e do Relatório Final implica no cancelamento da bolsa para trabalhos em andamento, e pleito futuro no Programa.
+			4.9. Recomendamos que o orientador e o bolsista realizem cadastro na mailing list criada para divulgação dos cursos promovidos pela Academia de PI e Inovação do INPI <a target="_blank" href="http://epesquisa.inpi.gov.br/index.php/934681/lang-pt-BR">(http://epesquisa.inpi.gov.br/index.php/934681/lang-pt-BR)</a>.
 		</p>
 
 		<h4>5. Requisitos e Compromissos do Bolsista</h4>
@@ -143,60 +142,33 @@
 			5.3. Não ter vínculo empregatício e dedicar-se integralmente às atividades do plano de trabalho proposto.
 		</p>
 		<p class="justify">
-			5.4. Ser selecionado e indicado pelo orientador.
+			5.4 Não receber outra modalidade de bolsa dentro dos programas da UESC ou de outra instituição, exceto as bolsas de Auxílio Moradia, Auxílio Permanência e correlatos.
 		</p>
 		<p class="justify">
-			5.5. Executar o Plano de Trabalho aprovado, sob supervisão de seu orientador.
+			5.5. Ser selecionado e indicado pelo orientador.
 		</p>
 		<p class="justify">
-			5.6. Apresentar Relatório Semestral (parcial) e Final seguindo o roteiro a ser disponibilizado e data a ser estabelecida pelo NIT da UESC.
+			5.6. Apresentar no “Seminário de Iniciação Científica e Inovação da UESC”, sua produção inovadora sob a forma de painéis ou exposições orais com orientação de seu respectivo orientador.
 		</p>
 		<p class="justify">
-			5.7. Participar dos Seminários de Iniciação Científica da UESC;
+			5.7. Nas publicações e trabalhos apresentados, fazer referência a sua condição de bolsista do PIBITI/CNPq ou ICBT/UESC.
 		</p>
 		<p class="justify">
-			5.8. Apresentar resultados parciais ou finais sob a forma de painéis ou exposições orais, por ocasião do Seminário de Iniciação Científica da UESC.
+			5.8. Apresentar Relatório Semestral (parcial) e Final seguindo o roteiro a ser disponibilizado e data a ser estabelecida pelo NIT-UESC.
 		</p>
 		<p class="justify">
-			5.9. Nas publicações e trabalhos apresentados, fazer referência a sua condição de bolsista do CNPq ou UESC.
+			5.9. Comunicar imediatamente ao orientador quaisquer impedimentos ou desinteresse à continuidade de sua condição de bolsista do programa.
 		</p>
 		<p class="justify">
-			5.10. Não receber outra modalidade de bolsa dentro dos programas da UESC ou de outra instituição, exceto as bolsas de Auxílio Moradia, Auxílio Permanência e correlatos.
+			5.10. Devolver à entidade financiadora, em valores atualizados, a(s) mensalidade(s) recebida(s) indevidamente, caso os requisitos e compromissos estabelecidos acima não sejam cumpridos.
 		</p>
 		<p class="justify">
-			5.11. Comunicar imediatamente ao orientador quaisquer impedimentos ou desinteresse à continuidade de sua condição de bolsista do programa.
-		</p>
-		<p class="justify">
-			5.12. Devolver à entidade financiadora, em valores atualizados, a(s) mensalidade(s) recebida(s) indevidamente, caso os requisitos e compromissos estabelecidos acima não sejam cumpridos.
-		</p>
-		<p class="justify">
-			5.13. Participar do curso de Introdução à Proteção Intelectual, com duração de 4 horas, para efetivação da bolsa, a ser ministrado em data a ser definida pelo NIT – UESC, ou outro que o NIT reconheça como equivalente.
-		</p>
-		<p class="justify">
-			5.14. O não cumprimento dos requisitos do item 5 implica o desligamento automático do bolsista do Programa de Iniciação Científico-Tecnológica da UESC.
+			5.11. O não cumprimento dos requisitos do item 5 implica o desligamento automático do bolsista do Programa de Iniciação Científico-Tecnológica da UESC.
 		</p>
 
-		<h4>6. O projeto</h4>
+		<h4>6. Cadastro do Orientador e encaminhamento das propostas</h4>
 		<p class="justify">
-			6.1. O projeto deverá pertencer à área de atuação do Orientador, preferencialmente, associado às linhas de pesquisa do Departamento e/ou do Programa de Pós-Graduação.
-		</p>
-		<p class="justify">
-			6.2. O projeto deverá ter mérito tecnológico ou relevância do ponto de vista dos temas Propriedade Intelectual e Transferência de Tecnologia.
-		</p>
-		<p class="justify">
-			6.3. O projeto deverá ter viabilidade técnica e econômica. O orientador deverá citar os financiamentos de pesquisa por Agências de Fomento e/ou outras Instituições, ou demonstrar não haver necessidade.
-		</p>
-		<p class="justify">
-			6.4. O projeto deverá ter no máximo 10 (dez) páginas e ser apresentado obedecendo, no que couber, ao seguinte roteiro mínimo: Título do projeto; Resumo; Justificativa; Objetivos; Resultado da Revisão Patentária/Busca de Anterioridade; Metodologia; Resultados Esperados, Infraestrutura Disponível, Impactos Previstos e Referências Bibliográficas.
-		</p>
-		<p class="justify">
-			6.5. O projeto deverá conter Plano de Trabalho detalhado e individualizado com respectivo cronograma de execução para cada bolsa a ser implementada.
-		</p>
-		<p class="justify">
-			6.6. Não é permitido que o projeto envolva apenas levantamento de dados ou rotinas típicas de apoio técnico sem atividade criativa.
-		</p>
-		<p class="justify">
-			6.7. Cadastro do Orientador e o modelo de submissão de projetos deverão ser realizados utilizando os modelos abaixo
+			6.1. O cadastro do orientador e a submissão do projeto e plano(s) de trabalho(s) deverão ser realizados online por meio do sistema PIBITI/UESC. Todos os documentos solicitados deverão ser anexados em PDF, conforme modelos e formulários disponíveis em anexo.
 		</p>
 		<hr>
 		<p class="center-align">
@@ -208,44 +180,100 @@
 			<br class="hide-on-med-and-up">
 			<br class="hide-on-med-and-up">
 		</p>
-		<p class="justify">
-			6.9. Cadastro do Projeto de pesquisa do orientador com os Plano(s) de Trabalho do(s) candidato(s), no mesmo endereço eletrônico acima.
-		</p>
-		<p class="justify">
-			6.10. Cada orientador poderá submeter até 02 (dois) Planos de Trabalho, diferentes entre si, para o projeto apresentado.
-		</p>
-		<p class="justify">
-			6.11. Comprovação de trabalho aceito para publicação (no prelo) para fins de pontuação no barema do orientador, se houver.
-		</p>
 		<!-- Start  -->
 
 		<!-- end  -->
-		<h4>7. Pré-Seleção a ser Realizada pelo NIT da UESC</h4>
-		<p class="justify">Após ampla divulgação e término das inscrições, o Comitê Institucional/NIT da UESC e assessores “ad hoc” procederão à pré-análise dos processos, eliminando as solicitações que não atendem às exigências mínimas especificadas neste Edital. Posteriormente, o Comitê Externo do CNPq emitirá o parecer final.</p>
+		<p class="justify">
+			6.2. Cada Professor/Pesquisador Orientador poderá submeter apenas uma única proposta de projeto de pesquisa contendo até dois (2) planos de trabalho, diferentes entre si.
+		</p>
+		<p class="justify">
+			6.3 Não será permitida a submissão do mesmo projeto por mais de um professor, caso isso ocorra todos os projetos serão eliminados.
+		</p>
+		<p class="justify">
+			6.4 Após a inscrição será gerado um comprovante que deverá conter o(s) nome(s) do(s) projeto (s) e plano (s) que deverá ser guardado com o orientador para efeito de comprovação da submissão, caso seja necessário.
+		</p>
+
+		<h4>7. Sobre o projeto de pesquisa</h4>
+		<p class="justify">
+			7.1. O projeto deverá ter mérito tecnológico ou relevância do ponto de vista dos temas Propriedade Intelectual e Transferência de Tecnologia.
+		</p>
+		<p class="justify">
+			7.2. O projeto deverá ter viabilidade técnica e econômica. O orientador deverá citar os financiamentos de pesquisa por Agências de Fomento e/ou outras Instituições, ou demonstrar não haver necessidade.
+		</p>
+		<p class="justify">
+			7.3. O formulário do projeto deverá ter no máximo 10 (dez) páginas e ser apresentado obedecendo, no que couber, ao seguinte roteiro mínimo: Título do projeto; Resumo; Justificativa; Objetivos; Resultado da Revisão Patentária/Busca de Anterioridade; Metodologia; Resultados Esperados, Infraestrutura Disponível, Impactos Previstos e Referências Bibliográficas.
+		</p>
+		<p class="justify">
+			7.4. O projeto deverá conter Plano de Trabalho detalhado e individualizado com respectivo cronograma de execução para cada bolsa a ser implementada.
+		</p>
+		<p class="justify">
+			7.5. Não é permitido que o projeto envolva apenas levantamento de dados ou rotinas típicas de apoio técnico sem atividade criativa.
+		</p>
 
 		<h4>8. Critérios de Pontuação</h4>
 		<p class="justify">
 			8.1. Para efeito de contagem de pontos deste Edital serão consideradas as informações apresentadas pelo proponente, podendo, a critério do Comitê Externo e/ou do NIT - UESC ser solicitado(s) comprovante(s) das informações curriculares e outros documentos que se fizerem necessários.</p>
 		<p class="justify">
-			8.2. A pontuação do Orientador obedecerá ao estabelecido no quadro disponível no site: <a href="#orientadorBarema">nit.uesc.br/pibiti2017</a> de forma não cumulativa, com peso igual a 25%, a ser avaliada pelo Comitê Institucional/NIT - UESC. Serão consideradas produções nos últimos 3 (três) anos, a partir de 2014 na área de conhecimento, divulgada nos principais veículos de comunicação da área.
+			8.2.  A avaliação dos projetos e planos de trabalho será realizada pelos membros do Comitê Institucional/NIT - UESC e Comitê Externo do CNPq.
 		</p>
 		<p class="justify">
-			8.3. A pontuação do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#projetoBarema">nit.uesc.br/pibiti2017</a>, de forma não cumulativa, com peso igual a 25% a ser avaliada pelo Comitê Institucional/NIT.
+			8.3. O barema com itens de avaliação da produção intelectual do orientador e do projeto de pesquisa está disponível no sistema PIBITI/UESC <a href="#orientadorBarema">nit.uesc.br/pibiti2018</a>.
 		</p>
 		<p class="justify">
-			8.4. A pontuação qualitativa do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#avaliacaoBarema">nit.uesc.br/pibiti2017</a>, de forma cumulativa, com peso igual a 50%, e será feita pelo Comitê Externo do CNPq
+			8.4. A produção intelectual e tecnológica do orientador será analisada considerando as atividades informadas no Currículo Lattes para os últimos 4 (quatro) anos, a partir de 2014. A pontuação do Orientador obedecerá ao estabelecido no quadro disponível sistema PIBITI/UESC, de forma não cumulativa, com peso igual a 25%.
 		</p>
 		<p class="justify">
-			8.5. A proposta que obtiver nota inferior a 5,00 (cinco), na avaliação qualitativa, será desclassificada.
+			8.5. A pontuação do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#projetoBarema">nit.uesc.br/pibiti2018</a>, de forma não cumulativa, com peso igual a 25% a ser avaliada pelo Comitê Institucional/NIT.
 		</p>
 		<p class="justify">
-			8.6. Caso haja duas ou mais propostas com a mesma pontuação final o desempate será pelo total da nota do avaliador externo.
+			8.6. A pontuação qualitativa do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#avaliacaoBarema">nit.uesc.br/pibiti2018</a>, de forma cumulativa, com peso igual a 50%, e será feita pelo Comitê Externo do CNPq
+		</p>
+		<p class="justify">
+			8.7. O projeto e o plano terão pontuação de 0 (zero) a 10 (dez), não sendo aprovado com pontuação abaixo de 5,0 (cinco).
+		</p>
+		<p class="justify">
+			8.8. Caso haja duas ou mais propostas com a mesma pontuação final o desempate será pelo total da nota do avaliador externo.
 		</p>
 
-		<h4>9. Comitê Externo</h4>
+		<h4>9. Da Implementação das Bolsas</h4>
 		<p class="justify">
-			9.1. Após a pré-análise, o Comitê Institucional/NIT da UESC reunir-se-á com Comitê de assessores externos, composto preferencialmente por pesquisadores de diferentes áreas do conhecimento, credenciados pelo CNPq, que procedem à seleção das propostas.
+			9.1. Para implementação das bolsas, uma vez aprovadas, serão necessários os seguintes documentos <strong>impressos</strong>:
 		</p>
+		<p class="justify">
+			9.1.1.Termo de Compromisso e Ficha de Cadastro do bolsista (Disponíveis em <a target="_blank" href="http://nit.uesc.br/pibiti">http://nit.uesc.br/pibiti</a>) assinados pelo orientador e pelo bolsista;
+		</p>
+		<p class="justify">
+			9.1.2. Histórico escolar do bolsista com CRAA e Comprovante de matrícula 2018 assinado pela instituição;
+		</p>
+		<p class="justify">
+			9.1.3. Fotocópia do CPF e do RG do bolsista;
+		</p>
+		<p class="justify">
+			9.1.4. Comprovante de residência atualizado do bolsista;
+		</p>
+		<p class="justify">
+			9.1.5. Extrato de conta bancária do Banco do Brasil em nome do bolsista (Para bolsas do CNPq);
+		</p>
+		<p class="justify">
+			9.1.6. Extrato de conta bancária de qualquer banco em nome do bolsista (Para bolsas ICTB/UESC);
+		</p>
+		<p class="justify">
+			9.2. Os documentos impressos mencionados no item 9.1 deverão ser, obrigatoriamente, entregues pelo bolsista indicado no Núcleo de Inovação Tecnológica NIT - UESC.
+		</p>
+		<p class="justify">
+			9.2.1. Horário de funcionamento do Núcleo de Inovação Tecnológica (NIT): Das 07:30 às 12:00 e das 13:30 às 16:00.
+			</p>
+		<b>Aos bolsistas CNPq</b>
+		<p class="justify">
+			No início de agosto o CNPq enviará um email para o bolsista solicitando a emissão online do aceite da bolsa. O email só será enviado para os discentes que tiverem o currículo Lattes atualizado na Plataforma Chagas. Caso haja algum problema com o currículo do bolsista haverá redução no período de vigência da bolsa.
+		</p>
+		<b>Aos bolsistas ICTB</b>
+		<p class="justify">
+			Além de entregar a documentação descrita acima no prazo estabelecido no calendário do edital os bolsistas ICTB deverão:
+	</p>
+		<p class="justify">
+		1) Comparecer à Gerência de Recursos Humanos (GERHU) portando carteira de trabalho para assinatura do Termo de Compromisso, em data a ser informada no site do PIBITI/UESC após a entrega da documentação. O aluno que não comparecer no período solicitado terá a bolsa implementada posteriormente, sem direito a pagamento retroativo (ver GERHU).
+	</p>
 
 		<h4>10. Disposições Gerais</h4>
 		<p class="justify">
@@ -255,19 +283,25 @@
 			10.2. Não serão analisadas solicitações de orientadores com pendências junto o NIT ou a PROPP/UESC, conforme Resolução CONSEPE/UESC N° 081/2014.
 		</p>
 		<p class="justify">
-			10.3. O resultado final da seleção será divulgado pelo Comitê Institucional/NIT - UESC na página do NIT (<a target="_blank" href="http://nit.uesc.br/pibiti2017">nit.uesc.br/pibiti2017</a>). Esclarecimentos sobre este Edital e informações adicionais sobre o Programa de Iniciação Científico-Tecnológica, poderão ser obtidas no NIT/UESC, pelo telefone (73) 3680-5392, pelo e-mail <a target="_blank" href="mailto:nit@uesc.br">nit@uesc.br</a>.
+			10.3. O resultado final da seleção será divulgado no endereço <a target="_blank" href="<?php echo base_url('home/resultados2018');?>">http://nit.uesc.br/pibiti/resultados</a>.
 		</p>
 		<p class="justify">
 			10.4. Para as propostas aprovadas que envolvam pesquisas com seres humanos, com organismos geneticamente modificados ou com animais, o orientador deverá encaminhar ao NIT o nº de protocolo de solicitação de parecer ao Comitê de Ética correspondente ou o parecer de aprovação. A não apresentação dessa documentação resultará em não implementação da bolsa.
 		</p>
 		<p class="justify">
-			10.5. O número total de bolsas será distribuído pela classificação geral das propostas aprovadas, observado a prioridade de um bolsista (plano de trabalho) por projeto qualificado. Entre a possibilidade de deixar um orientador com dois bolsistas ou atribuir uma primeira bolsa a outro orientador, esta última opção terá prioridade.
+			10.5. As propostas que envolvam o acesso ao Patrimônio Genético Nacional e/ou Conhecimento Tradicional Associado deverão observar os termos dispostos na Lei nº 13.123/2015 e no seu decreto de regulamentação, Decreto n° 8.772/2016. Para maiores informações acesse o link <a target="_blank" href="https://goo.gl/6pWiuS">https://goo.gl/6pWiuS</a>.
 		</p>
 		<p class="justify">
-			10.6. Em caso de concessão de bolsas adicionais por parte do CNPq, da UESC ou outra Instituição de Fomento, para a vigência 2017/2018 estas serão distribuídas de acordo com normas locais e com as recomendações do financiador, respeitando o Banco de Reserva.
+			10.6. O número total de bolsas será distribuído pela classificação geral das propostas aprovadas, observado a prioridade de um bolsista (plano de trabalho) por projeto qualificado. Entre a possibilidade de deixar um orientador com dois bolsistas ou atribuir uma primeira bolsa a outro orientador, esta última opção terá prioridade.
 		</p>
 		<p class="justify">
-			10.7. Os casos omissos serão analisados e decididos pelo Comitê Institucional/NIT - UESC.
+			10.7. Em caso de concessão de bolsas adicionais por parte do CNPq, da UESC ou outra Instituição de Fomento, para a vigência 2018/2019 estas serão distribuídas de acordo com normas locais e com as recomendações do financiador, respeitando o Banco de Reserva.
+		</p>
+		<p class="justify">
+			10.8. Esclarecimentos sobre este Edital e informações adicionais sobre o Programa de Iniciação Científico-Tecnológica, poderão ser obtidas exclusivamente pelo e-mail <b>nit@uesc.br</b>.
+		</p>
+		<p class="justify">
+			10.9. Os casos omissos serão analisados e decididos pelo Comitê Institucional/NIT - UESC.
 		</p>
 		<hr>
 		<h3>***</h3>

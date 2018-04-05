@@ -57,4 +57,5 @@
 
 <h3>Modelos</h3>
 
-<a href="<?php echo base_url();?>anexos/RELATORIO_PIBIT_MODELO.rtf" class="btn">Modelo de Relatório <i class="material-icons right">description</i></a>
+<a href="<?php echo base_url();?>anexos/Modelo Relatorio Parcial_PIBITI_ 2018-2019_UESC.docx" class="btn">Relatório Parcial <i class="material-icons right">description</i></a>
+<a href="<?php echo base_url();?>anexos/Modelo Relatorio Final_PIBITI_ 2018-2019_UESC.docx" class="btn">Relatório Final <i class="material-icons right">description</i></a>

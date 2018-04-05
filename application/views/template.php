@@ -67,7 +67,7 @@
 					<li><a href="<?php echo base_url('');?>home/cadastro">Cadastro</a></li>
 					<!-- <li><a href="<?php echo base_url('');?>home/cronograma">Cronograma</a></li> -->
 					<li><a href="<?php echo base_url('');?>home/edital">Edital</a></li>
-					<li><a href="<?php echo base_url('');?>home/resultados2016">Resultados</a></li>
+					<li><a href="<?php echo base_url('');?>home/resultados2018">Resultados</a></li>
 					<!-- <li><a href="<?php echo base_url('');?>home/relatorios">Relatórios</a></li> -->
 					<li><a href="<?php echo base_url('');?>login">Login</a></li>
 				</ul>

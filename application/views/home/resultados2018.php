@@ -1,5 +1,5 @@
-<h1>Resultado Final<small> 2017</small></h1>
-<p class="__opaque __large __underline">Divulgação do resultado final no dia 8 de junho de 2017</p>
+<h1>Resultado Final<small> 2018</small></h1>
+<p class="__opaque __large __underline">Divulgação do resultado final no dia 22 de junho de 2018</p>
 <div class="row">
 	<div class="s12 col">
 		<div class="subtitle">
