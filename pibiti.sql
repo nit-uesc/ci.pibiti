@@ -40,50 +40,50 @@ INSERT INTO `area_capes` (`area_capes_id`, `nome_area`) VALUES
 (1, 'ADMINISTRAÇÃO , CIÊNCIAS CONTÁBEIS E TURISMO'),
 (2, 'ANTROPOLOGIA / ARQUEOLOGIA'),
 (3, 'ARQUITETURA E URBANISMO'),
-(4, 'ARTES / MÃšSICA'),
-(5, 'ASTRONOMIA / FÃSICA'),
+(4, 'ARTES / MÚSICA'),
+(5, 'ASTRONOMIA / FÍSICA'),
 (6, 'BIODIVERSIDADE'),
 (7, 'BIOTECNOLOGIA'),
-(8, 'CIÃŠNCIA DA COMPUTAÃ‡ÃƒO'),
-(9, 'CIÃŠNCIA DE ALIMENTOS'),
-(10, 'CIÃŠNCIA POLÃTICA E RELAÃ‡Ã•ES INTERNACIONAIS'),
-(11, 'CIÃŠNCIAS AGRÃRIAS I'),
-(12, 'CIÃŠNCIAS AMBIENTAIS'),
-(13, 'CIÃŠNCIAS BIOLÃ“GICAS I'),
-(14, 'CIÃŠNCIAS BIOLÃ“GICAS II'),
-(15, 'CIÃŠNCIAS BIOLÃ“GICAS III'),
-(16, 'CIÃŠNCIAS SOCIAIS APLICADAS I'),
+(8, 'CIÊNCIA DA COMPUTAÇÃO'),
+(9, 'CIÊNCIA DE ALIMENTOS'),
+(10, 'CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS'),
+(11, 'CIÊNCIAS AGRÁRIAS I'),
+(12, 'CIÊNCIAS AMBIENTAIS'),
+(13, 'CIÊNCIAS BIOLÓGICAS I'),
+(14, 'CIÊNCIAS BIOLÓGICAS II'),
+(15, 'CIÊNCIAS BIOLÓGICAS III'),
+(16, 'CIÊNCIAS SOCIAIS APLICADAS I'),
 (17, 'DIREITO'),
 (18, 'ECONOMIA'),
-(19, 'EDUCAÃ‡ÃƒO'),
-(20, 'EDUCAÃ‡ÃƒO FÃSICA'),
+(19, 'EDUCAÇÃO'),
+(20, 'EDUCAÇÃO FÍSICA'),
 (21, 'ENFERMAGEM'),
 (22, 'ENGENHARIAS I'),
 (23, 'ENGENHARIAS II'),
 (24, 'ENGENHARIAS III'),
 (25, 'ENGENHARIAS IV'),
 (26, 'ENSINO'),
-(27, 'FARMÃCIA'),
-(28, 'FILOSOFIA/TEOLOGIA:subcomissÃ£o FILOSOFIA'),
-(29, 'FILOSOFIA/TEOLOGIA:subcomissÃ£o TEOLOGIA'),
-(30, 'GEOCIÃŠNCIAS'),
+(27, 'FARMÁCIA'),
+(28, 'FILOSOFIA/TEOLOGIA:subcomissão FILOSOFIA'),
+(29, 'FILOSOFIA/TEOLOGIA:subcomissão TEOLOGIA'),
+(30, 'GEOCIẼNCIAS'),
 (31, 'GEOGRAFIA'),
-(32, 'HISTÃ“RIA'),
+(32, 'HISTÓRIA'),
 (33, 'INTERDISCIPLINAR'),
-(34, 'LETRAS / LINGUÃSTICA'),
-(35, 'MATEMÃTICA / PROBABILIDADE E ESTATÃSTICA'),
+(34, 'LETRAS / LINGUÍSTICA'),
+(35, 'MATEMÁTICA / PROBABILIDADE E ESTATÍSTICA'),
 (36, 'MATERIAIS'),
 (37, 'MEDICINA I'),
 (38, 'MEDICINA II'),
 (39, 'MEDICINA III'),
-(40, 'MEDICINA VETERINÃRIA'),
-(41, 'NUTRIÃ‡ÃƒO'),
+(40, 'MEDICINA VETERINÁRIA'),
+(41, 'NUTRIÇÃO'),
 (42, 'ODONTOLOGIA'),
 (43, 'PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA'),
 (44, 'PSICOLOGIA'),
-(45, 'QUÃMICA'),
-(46, 'SAÃšDE COLETIVA'),
-(47, 'SERVIÃ‡O SOCIAL'),
+(45, 'QUÍMICA'),
+(46, 'SAÚDE COLETIVA'),
+(47, 'SERVIÇO SOCIAL'),
 (48, 'SOCIOLOGIA'),
 (49, 'ZOOTECNIA / RECURSOS PESQUEIROS');
 
@@ -190,10 +190,10 @@ CREATE TABLE IF NOT EXISTS `criterio_externo` (
 --
 
 INSERT INTO `criterio_externo` (`id`, `descricao`) VALUES
-(1, 'CarÃ¡ter inovador, de acordo com Manual de Oslo (ver pÃ¡gina do NIT) '),
-(2, 'Potencial de geraÃ§Ã£o de patente, ou cultivar, ou registro de software '),
-(3, 'Potencial de transferÃªncia de tecnologia para o setor produtivo privado ou geraÃ§Ã£o de negÃ³cios a partir de â€œspin-offâ€ da academia '),
-(4, 'RevisÃ£o PatentÃ¡ria / Busca de Anterioridade '),
+(1, 'Caráter inovador, de acordo com Manual de Oslo (ver página do NIT) '),
+(2, 'Potencial de geração de patente, ou cultivar, ou registro de software '),
+(3, 'Potencial de transferência de tecnologia para o setor produtivo privado ou geração de negócios a partir de "spin-off" da academia '),
+(4, 'Revisão Patentária / Busca de Anterioridade '),
 (5, 'Plano de Trabalho do Bolsista ');
 
 -- --------------------------------------------------------
@@ -210,11 +210,11 @@ CREATE TABLE IF NOT EXISTS `criterio_orientador` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT AUTO_INCREMENT=6 ;
 
 INSERT INTO `criterio_orientador` (`id`, `descricao`, `pontuacao`) VALUES
-(1, 'Com bolsa de produtividade em Desenvolvimento TecnolÃ³gico e ExtensÃ£o Inovadora (DT) ou em Pesquisa', 5),
-(2, 'ProduÃ§Ã£o mÃ©dia acima de 1 artigo cientÃ­fico/ano em Qualis A nos Ãºltimos 3 anos', 4),
-(3, 'ProduÃ§Ã£o mÃ©dia entre 1 e 0,6 artigo cientÃ­ficos/ano em Qualis A nos Ãºltimos 3 anos', 3),
-(4, 'ProduÃ§Ã£o mÃ©dia acima de e 1,0 artigo cientÃ­fico/ano em Qualis A ou B nos Ãºltimos 3 anos ', 2),
-(5, 'ProduÃ§Ã£o mÃ©dia acima de 0,5 artigo cientÃ­fico/ano em Qualis A ou B, ou livro/capÃ­tulo de livro ', 1);
+(1, 'Com bolsa de produtividade em Desenvolvimento Tecnológico e Extensão Inovadora (DT) ou em Pesquisa', 5),
+(2, 'Produção média acima de 1 artigo científico/ano em Qualis A nos últimos 3 anos', 4),
+(3, 'Produção média entre 1 e 0,6 artigo científicos/ano em Qualis A nos últimos 3 anos', 3),
+(4, 'Produção média acima de e 1,0 artigo cientí­fico/ano em Qualis A ou B nos últimos 3 anos ', 2),
+(5, 'Produção média acima de 0,5 artigo científico/ano em Qualis A ou B, ou livro/capítulo de livro ', 1);
 
 -- --------------------------------------------------------
 
@@ -234,11 +234,11 @@ CREATE TABLE IF NOT EXISTS `criterio_projeto` (
 --
 
 INSERT INTO `criterio_projeto` (`id`, `descricao`, `pontuacao`) VALUES
-(1, 'Coordenado pelo proponente e financiado por agÃªncia de fomento ou empresa e caracterizado na Ã¡rea de Desenvolvimento TecnolÃ³gico e InovaÃ§Ã£o', 5),
-(2, 'Com participaÃ§Ã£o do proponente como pesquisador/colaborador e financiado por agÃªncia de fomento ou empresa e caracterizado na Ã¡rea de Desenvolvimento TecnolÃ³gico e InovaÃ§Ã£o', 4),
-(3, 'Coordenado pelo proponente e financiado por agÃªncia de fomento, caracterizado como projeto de pesquisa bÃ¡sica que possua potencial para desenvolvimento de produtos ou processos inovadores', 3),
-(4, 'Com participaÃ§Ã£o do proponente como pesquisador/colaborador e financiado por agÃªncia de fomento, caracterizado como projeto de pesquisa bÃ¡sica que possua potencial para desenvolvimento de produtos ou processos inovadores', 2),
-(5, 'Propostas sem comprovaÃ§Ã£o de financiamento, mas com comprovaÃ§Ã£o de infra-estrutura com capacidade instalada para execuÃ§Ã£o do projeto', 1);
+(1, 'Coordenado pelo proponente e financiado por agência de fomento ou empresa e caracterizado na Área de Desenvolvimento Tecnológico e Inovação', 5),
+(2, 'Com participação do proponente como pesquisador/colaborador e financiado por agência de fomento ou empresa e caracterizado na Área de Desenvolvimento Tecnológico e Inovação', 4),
+(3, 'Coordenado pelo proponente e financiado por agência de fomento, caracterizado como projeto de pesquisa básica que possua potencial para desenvolvimento de produtos ou processos inovadores', 3),
+(4, 'Com participação do proponente como pesquisador/colaborador e financiado por agência de fomento, caracterizado como projeto de pesquisa básica que possua potencial para desenvolvimento de produtos ou processos inovadores', 2),
+(5, 'Propostas sem comprovação de financiamento, mas com comprovação de infra-estrutura com capacidade instalada para execução do projeto', 1);
 
 -- --------------------------------------------------------
 
@@ -257,37 +257,37 @@ CREATE TABLE IF NOT EXISTS `curso` (
 --
 
 INSERT INTO `curso` (`cur_id`, `cur_nome`) VALUES
-(1, 'AdministraÃ§Ã£o'),
+(1, 'Administração'),
 (2, 'Agronomia'),
 (3, 'Biomedicina'),
-(4, 'CiÃªncias BiolÃ³gicas - Bacharelado'),
-(5, 'CiÃªncias ContÃ¡beis'),
-(6, 'CiÃªncia da ComputaÃ§Ã£o'),
-(7, 'ComunicaÃ§Ã£o Social'),
+(4, 'Ciências Biológicas - Bacharelado'),
+(5, 'Ciências Contábeis'),
+(6, 'Ciência da Computação'),
+(7, 'Comunicação Social'),
 (8, 'Direito'),
 (9, 'Economia'),
 (10, 'Enfermagem'),
 (11, 'Engenharia Civil'),
-(12, 'Engenharia de ProduÃ§Ã£o'),
-(13, 'Engenharia ElÃ©trica'),
-(14, 'Engenharia MecÃ¢nica'),
-(15, 'Engenharia QuÃ­mica'),
-(16, 'FÃ­sica - Bacharelado'),
+(12, 'Engenharia de Produção'),
+(13, 'Engenharia Elétrica'),
+(14, 'Engenharia Mecânica'),
+(15, 'Engenharia Quí­mica'),
+(16, 'Física - Bacharelado'),
 (17, 'Geografia - Bacharelado'),
 (18, 'LEA'),
 (19, 'Medicina'),
-(20, 'Medicina VeterinÃ¡ria'),
-(21, 'MatemÃ¡tica - Bacharelado'),
-(22, 'QuÃ­mica - Bacharelado'),
-(23, 'CiÃªncias BiolÃ³gicas - Licenciatura'),
-(24, 'FÃ­sica - Licenciatura'),
+(20, 'Medicina Veterinária'),
+(21, 'Matemática - Bacharelado'),
+(22, 'Química - Bacharelado'),
+(23, 'Ciências Biológicas - Licenciatura'),
+(24, 'Física - Licenciatura'),
 (25, 'Geografia - Licenciatura'),
-(26, 'MatemÃ¡tica - Licenciatura'),
-(27, 'QuÃ­mica - Licenciatura'),
-(28, 'CiÃªncias Sociais'),
-(29, 'EducaÃ§Ã£o FÃ­sica'),
+(26, 'Matemática - Licenciatura'),
+(27, 'Química - Licenciatura'),
+(28, 'Ciências Sociais'),
+(29, 'Educação Fí­sica'),
 (30, 'Filosofia'),
-(31, 'HistÃ³ria'),
+(31, 'História'),
 (32, 'Letras'),
 (33, 'Pedagogia');
 
@@ -309,10 +309,10 @@ CREATE TABLE IF NOT EXISTS `dados_lattes` (
 --
 
 INSERT INTO `dados_lattes` (`id_lattes`, `descricao`, `pontuacao`) VALUES
-(1, 'Com bolsa de produtividade em Desenvolvimento TecnolÃ³gico e ExtensÃ£o Inovadora (DT) ou em Pesquisa (PQ), ou registro de um software, ou depÃ³sito de patentes, ou proteÃ§Ã£o de cultivares nos Ãºltimos 3 anos', 5),
-(3, 'ProduÃ§Ã£o mÃ©dia acima de 2 artigos cientÃ­ficos/ano em Qualis A nos Ãºltimos 3 anos', 4),
-(4, 'ProduÃ§Ã£o mÃ©dia entre 0,5 e 2,0 artigos cientÃ­ficos/ano em Qualis A nos Ãºltimos 3 anos', 3),
-(5, 'ProduÃ§Ã£o mÃ©dia abaixo de 0,5 artigo cientÃ­fico/ano em Qualis A, ou qualquer produÃ§Ã£o em Qualis B ou C, ou livro/capÃ­tulo de livro nos Ãºltimos 3 anos', 1);
+(1, 'Com bolsa de produtividade em Desenvolvimento Tecnológico e Extensão Inovadora (DT) ou em Pesquisa (PQ), ou registro de um software, ou depósito de patentes, ou proteção de cultivares nos últimos 3 anos', 5),
+(3, 'Produção média acima de 2 artigos cientí­ficos/ano em Qualis A nos últimos 3 anos', 4),
+(4, 'Produção média entre 0,5 e 2,0 artigos científicos/ano em Qualis A nos últimos 3 anos', 3),
+(5, 'Produção média abaixo de 0,5 artigo cientí­fico/ano em Qualis A, ou qualquer produção em Qualis B ou C, ou livro/capí­tulo de livro nos últimos 3 anos', 1);
 
 -- --------------------------------------------------------
 
@@ -332,15 +332,15 @@ CREATE TABLE IF NOT EXISTS `departamentos` (
 --
 
 INSERT INTO `departamentos` (`dep_id`, `dep_nome`, `dep_sigla`) VALUES
-(3, 'Departamento de CiÃªncias AgrÃ¡rias e Ambientais', 'DCAA'),
-(4, 'Departamento de AdministraÃ§Ã£o e CiÃªncias ContÃ¡beis', 'DCAC'),
-(5, 'Departamento de CiÃªncias BiolÃ³gicas', 'DCB'),
-(6, 'Departamento de CiÃªncias EconÃ´micas', 'DCEC'),
-(7, 'Departamento de CiÃªncias Exatas e TecnolÃ³gicas', 'DCET'),
-(8, 'Departamento de CiÃªncias da EducaÃ§Ã£o', 'DCIE'),
-(9, 'Departamento de CiÃªncias da SaÃºde', 'DCS'),
-(10, 'Departamento de CiÃªncias JurÃ­dicas', 'DCIJUR'),
-(11, 'Departamento de Filosofia e CiÃªncias Humanas', 'DFCH'),
+(3, 'Departamento de Ciências Agrárias e Ambientais', 'DCAA'),
+(4, 'Departamento de Administração e Ciências Contábeis', 'DCAC'),
+(5, 'Departamento de Ciências Biológicas', 'DCB'),
+(6, 'Departamento de Ciências Econômicas', 'DCEC'),
+(7, 'Departamento de Ciências Exatas e Tecnológicas', 'DCET'),
+(8, 'Departamento de Ciências da Educação', 'DCIE'),
+(9, 'Departamento de Ciências da Saúde', 'DCS'),
+(10, 'Departamento de Ciências Jurí­dicas', 'DCIJUR'),
+(11, 'Departamento de Filosofia e Ciências Humanas', 'DFCH'),
 (12, 'Departamento de Letras e Artes', 'DLA');
 
 -- --------------------------------------------------------
@@ -392,8 +392,8 @@ CREATE TABLE IF NOT EXISTS `grande_area` (
 
 INSERT INTO `grande_area` (`garea_id`, `garea_nome`, `garea_sigla`) VALUES
 (1, 'Ciências da Vida (Ciências Biológicas, Ciências da Saúde e Ciências Agrárias)', 'Vida'),
-(2, 'CiÃªncias Exatas, da Terra e Engenharia', 'Exatas'),
-(3, 'CiÃªncias Humanas, Sociais Aplicadas e LinguÃ­stica, Letras e Artes', 'Humanas');
+(2, 'Ciências Exatas, da Terra e Engenharia', 'Exatas'),
+(3, 'Ciências Humanas, Sociais Aplicadas e Linguí­stica, Letras e Artes', 'Humanas');
 
 -- --------------------------------------------------------
 
@@ -471,12 +471,12 @@ CREATE TABLE IF NOT EXISTS `status` (
 
 INSERT INTO `status` (`stat_id`, `stat_nome`) VALUES
 (1, 'Enviado'),
-(2, 'Em avaliaÃ§Ã£o'),
+(2, 'Em avaliação'),
 (3, 'Indeferido'),
-(4, 'Sem avaliaÃ§Ã£o'),
-(5, 'Com 1 avaliaÃ§Ã£o'),
-(6, 'Com 2 avaliaÃ§Ãµes'),
-(7, 'Necessita 3 avaliaÃ§Ã£o'),
+(4, 'Sem avaliação'),
+(5, 'Com 1 avaliação'),
+(6, 'Com 2 avaliações'),
+(7, 'Necessita 3 avaliação'),
 (8, 'Aprovado'),
 (9, 'Banco de reserva');
 
