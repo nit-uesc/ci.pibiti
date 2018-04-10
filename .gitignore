@@ -19,7 +19,6 @@ src/database.php
 uploads/
 db/
 deploy/
-anexos/
 planos/
 node_modules/
 banco.sql
