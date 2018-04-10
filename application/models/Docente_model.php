@@ -14,13 +14,13 @@ class Docente_model extends CI_Model{
 
 		$doc_id = $projeto['fk_doc_id'];
         $query = "
-            SELECT *
-            FROM plano_trabalho
-            WHERE fk_doc_id = $doc_id
-            AND plano_id IN
+            SELECT * 
+            FROM plano_trabalho 
+            WHERE fk_doc_id = $doc_id 
+            AND plano_id IN 
             (
-                SELECT MAX(plano_id)
-                FROM plano_trabalho
+                SELECT MAX(plano_id) 
+                FROM plano_trabalho 
                 GROUP BY fk_doc_id, plano_ordem
             )
             ORDER BY plano_ordem
@@ -119,15 +119,15 @@ class Docente_model extends CI_Model{
     function get_all_projetos()
     {
         $query = "
-            SELECT *
-            FROM usuario
+            SELECT * 
+            FROM usuario 
             LEFT JOIN docente ON fk_usu_id=usu_id
             LEFT JOIN projeto ON fk_doc_id=doc_id
             WHERE usuario.type=2
-            AND proj_id IN
+            AND proj_id IN 
             (
-                SELECT MAX(proj_id)
-                FROM projeto
+                SELECT MAX(proj_id) 
+                FROM projeto 
                 GROUP BY fk_doc_id
             )
             ORDER BY doc_nome
@@ -144,20 +144,20 @@ class Docente_model extends CI_Model{
     function get_all_projetos_planos()
     {
         $query = "
-            SELECT *
+            SELECT * 
             FROM projeto
             LEFT JOIN docente ON fk_doc_id = doc_id
-            LEFT JOIN plano_trabalho AS pt ON pt.fk_doc_id = doc_id
-            WHERE plano_id IN
-            (
-                SELECT MAX(plano_id)
-                FROM plano_trabalho
-                GROUP BY fk_doc_id, plano_ordem
+            INNER JOIN plano_trabalho ON proj_id=fk_proj_id 
+            WHERE plano_id IN 
+            (   
+                SELECT MAX(plano_id) 
+                FROM plano_trabalho 
+                GROUP BY fk_doc_id, plano_ordem 
             )
-            AND proj_id IN
-            (
-                SELECT MAX(proj_id)
-                FROM projeto
+            AND proj_id IN 
+            (   
+                SELECT MAX(proj_id) 
+                FROM projeto 
                 GROUP BY fk_doc_id
             )
             ORDER BY proj_titulo
@@ -167,8 +167,7 @@ class Docente_model extends CI_Model{
         if ($rs->num_rows()> 0):
             return $rs;
         else:
-            // return false;
-            return $rs;
+            return false;
         endif;
     }
 
@@ -234,13 +233,13 @@ class Docente_model extends CI_Model{
 
     function get_all_planos(){
         $query = "
-            SELECT *
-            FROM plano_trabalho
+            SELECT * 
+            FROM plano_trabalho 
             LEFT JOIN docente ON fk_doc_id=doc_id
-            WHERE plano_id IN
+            WHERE plano_id IN 
             (
-                SELECT MAX(plano_id)
-                FROM plano_trabalho
+                SELECT MAX(plano_id) 
+                FROM plano_trabalho 
                 GROUP BY fk_doc_id, plano_ordem
             )
             ORDER BY doc_nome
