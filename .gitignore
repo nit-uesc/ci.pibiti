@@ -14,7 +14,6 @@ user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 /vendor/
 
-application/config/database.php
 src/database.php
 uploads/
 db/
@@ -36,4 +35,4 @@ banco.sql
 *.sublime-project
 
 *.swp
-application/config/database.php
+/application/config/database.php
