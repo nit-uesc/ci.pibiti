@@ -35,3 +35,6 @@ banco.sql
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
+
+*.swp
+application/config/database.php
