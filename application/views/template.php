@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/jquery-2.2.0.min.js"></script>
 	<style type="text/css"></style>
 
-	<title>PIBITI 2017</title>
+	<title>PIBITI 2018</title>
 </head>
 <body id="generalTemplate"style="background-color: #FCFDFF;">
 	<div class="all">
