@@ -10,7 +10,7 @@
     <link href="<?php echo base_url('');?>layout/public/css/main.css" rel="stylesheet">
     <link href="<?php echo base_url('');?>layout/public/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="<?php echo base_url('');?>layout/public/css/buttons.dataTables.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
     <style type="text/css"></style>
 
     <title>PIBITI 2017</title>
