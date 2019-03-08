@@ -2,7 +2,7 @@
 <div class="row">
 	<div class="col s12">
 		<h3>Edital Nº XX</h4>
-		<p class="justify">A Reitora da Universidade Estadual de Santa Cruz – UESC, torna pública a abertura de inscrições para o <b>PROGRAMA DE INICIAÇÃO CIENTÍFICO-TECNOLÓGICA DA UESC 2018-2019</b>. Regulamenta o presente Edital a Resolução Normativa N°017/2006 do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Resolução CONSEPE/UESC N° 081/2014, decisões do Comitê Institucional/NIT UESC e do Comitê Externo/CNPq.</p>
+		<p class="justify">A Reitora da Universidade Estadual de Santa Cruz – UESC, torna pública a abertura de inscrições para o <b>PROGRAMA DE INICIAÇÃO CIENTÍFICO-TECNOLÓGICA DA UESC 2019-2020</b>. Regulamenta o presente Edital a Resolução Normativa N°017/2006 do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Resolução CONSEPE/UESC N° 081/2014, decisões do Comitê Institucional/NIT UESC e do Comitê Externo/CNPq.</p>
 
 		<h4>1. Objetivos</h4>
 		<p class="justify">
@@ -34,31 +34,31 @@
 			<tbody>
 				<tr>
 					<td>Lançamento   do Edital</td>
-					<td>16 de abril de 2018</td>
+					<td>11/03/2019</td>
 				</tr>
 				<tr>
 					<td>Cadastro   do orientador </td>
-					<td>23 de abril a 28 de maio de 2018</td>
+					<td>11/03/2019 a 10/04/2019</td>
 				</tr>
 				<tr>
 					<td>Encaminhamento    de proposta(s) </td>
-					<td>23 de abril a 28 de maio de 2018</td>
+					<td>11/03/2019 a 10/04/2019</td>
 				</tr>
 				<tr>
 					<td>Divulgação    do resultado preliminar</td>
-					<td>19 de junho de 2018</td>
+					<td>10/05/2019</td>
 				</tr>
 				<tr>
 					<td>Pedido    de reconsideração </td>
-					<td>20 e 21 de junho de 2018</td>
+					<td>13 e 14/05/2019</td>
 				</tr>
 				<tr>
 					<td>Divulgação    do resultado final</td>
-					<td>22 de junho de 2018 </td>
+					<td>15/05/2019</td>
 				</tr>
 				<tr>
 					<td>Indicação do bolsista e entrega de documentação </td>
-					<td>03 a 13 de julho de 2018</td>
+					<td>16/05/2019 a 17/06/2019</td>
 				</tr>
 			</tbody>
 		</table>
@@ -68,7 +68,7 @@
 			3.1. O presente Edital visa a distribuição de bolsas de iniciação científico-tecnológica, que tem como fonte pagadora CNPQ* e UESC.
 		</p>
 		<p class="justify">
-			3.2. A bolsa terá vigência de até 12 (doze) meses, com início previsto em 1º de agosto de 2018 e término em 31 de julho de 2019, não podendo ultrapassar a data da finalização da graduação, quando se tratar de bolsista formando.
+			3.2. A bolsa terá vigência de até 12 (doze) meses, com início previsto em 1º de agosto de 2019 e término em 31 de julho de 2020, não podendo ultrapassar a data da finalização da graduação, quando se tratar de bolsista formando.
 		</p>
 		<p class="justify">
 			3.3. As bolsas podem ser acumuláveis apenas com bolsas de permanência/ manutenção/assistência estudantil.
@@ -88,26 +88,25 @@
 			<tbody>
 				<tr>
 					<td>CNPq</td>
-					<td>01/08/18 a 31/07/19</td>
-					<td>-*</td>
+					<td>01/08/19 a 31/07/20</td>
+					<td>09</td>
 					<td>400,00</td>
 				</tr>
 				<tr>
 					<td>ICTB/UESC</td>
-					<td>01/08/18 a 31/07/19</td>
+					<td>01/08/19 a 31/07/20</td>
 					<td>10</td>
 					<td>400,00</td>
 				</tr>
 			</tbody>
 		</table>
-		<h6>* <i>a cota institucional do CNPq está dependente da liberação.</i></h6>
 
 		<h4>4. Requisitos, Compromissos e Direitos do Orientador</h4>
 		<p class="justify">
 			4.1. Ser docente, pesquisador ou bolsista de pesquisa (PRODOC, DTR, DCT, DCR) da UESC em regime de Tempo Integral ou Dedicação Exclusiva, estar ativo no momento de implementação da bolsa de IT e durante toda a sua vigência.
 		</p>
 		<p class="justify">
-			4.2. Ter produção científica, tecnológica ou artístico-cultural nos últimos 4 (quatro) anos, <b>a partir de 2014</b> na área de conhecimento, divulgada nos principais veículos de comunicação da área.
+			4.2. Ter produção científica, tecnológica ou artístico-cultural nos últimos 4 (quatro) anos, <b>a partir de 2015</b> na área de conhecimento, divulgada nos principais veículos de comunicação da área.
 		</p>
 		<p class="justify">
 			4.3. Possuir experiência em atividades de geração e transferência de tecnologia e conhecimentos para empresas e/ou para a sociedade em geral.
@@ -217,16 +216,16 @@
 			8.2.  A avaliação dos projetos e planos de trabalho será realizada pelos membros do Comitê Institucional/NIT - UESC e Comitê Externo do CNPq.
 		</p>
 		<p class="justify">
-			8.3. O barema com itens de avaliação da produção intelectual do orientador e do projeto de pesquisa está disponível no sistema PIBITI/UESC <a href="#orientadorBarema">nit.uesc.br/pibiti2018</a>.
+			8.3. O barema com itens de avaliação da produção intelectual do orientador e do projeto de pesquisa está disponível no sistema PIBITI/UESC <a href="#orientadorBarema">nit.uesc.br/pibiti2019</a>.
 		</p>
 		<p class="justify">
 			8.4. A produção intelectual e tecnológica do orientador será analisada considerando as atividades informadas no Currículo Lattes para os últimos 4 (quatro) anos, a partir de 2014. A pontuação do Orientador obedecerá ao estabelecido no quadro disponível sistema PIBITI/UESC, de forma não cumulativa, com peso igual a 25%.
 		</p>
 		<p class="justify">
-			8.5. A pontuação do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#projetoBarema">nit.uesc.br/pibiti2018</a>, de forma não cumulativa, com peso igual a 25% a ser avaliada pelo Comitê Institucional/NIT.
+			8.5. A pontuação do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#projetoBarema">nit.uesc.br/pibiti2019</a>, de forma não cumulativa, com peso igual a 25% a ser avaliada pelo Comitê Institucional/NIT.
 		</p>
 		<p class="justify">
-			8.6. A pontuação qualitativa do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#avaliacaoBarema">nit.uesc.br/pibiti2018</a>, de forma cumulativa, com peso igual a 50%, e será feita pelo Comitê Externo do CNPq
+			8.6. A pontuação qualitativa do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#avaliacaoBarema">nit.uesc.br/pibiti2019</a>, de forma cumulativa, com peso igual a 50%, e será feita pelo Comitê Externo do CNPq
 		</p>
 		<p class="justify">
 			8.7. O projeto e o plano terão pontuação de 0 (zero) a 10 (dez), não sendo aprovado com pontuação abaixo de 5,0 (cinco).
@@ -244,7 +243,7 @@
  			assinados pelo orientador e pelo bolsista;
 		</p>
 		<p class="justify">
-			9.1.2. Histórico escolar do bolsista com CRAA e Comprovante de matrícula 2018 assinado pela instituição;
+			9.1.2. Histórico escolar do bolsista com CRAA e Comprovante de matrícula 2019 assinado pela instituição;
 		</p>
 		<p class="justify">
 			9.1.3. Fotocópia do CPF e do RG do bolsista;
@@ -284,7 +283,7 @@
 			10.2. Não serão analisadas solicitações de orientadores com pendências junto o NIT ou a PROPP/UESC, conforme Resolução CONSEPE/UESC N° 081/2014.
 		</p>
 		<p class="justify">
-			10.3. O resultado final da seleção será divulgado no endereço <a target="_blank" href="<?php echo base_url('home/resultados2018');?>">http://nit.uesc.br/pibiti/resultados</a>.
+			10.3. O resultado final da seleção será divulgado no endereço <a target="_blank" href="<?php echo base_url('home/resultados2019');?>">http://nit.uesc.br/pibiti/resultados</a>.
 		</p>
 		<p class="justify">
 			10.4. Para as propostas aprovadas que envolvam pesquisas com seres humanos, com organismos geneticamente modificados ou com animais, o orientador deverá encaminhar ao NIT o nº de protocolo de solicitação de parecer ao Comitê de Ética correspondente ou o parecer de aprovação. A não apresentação dessa documentação resultará em não implementação da bolsa.
@@ -432,6 +431,6 @@
 		<p><strong>PRODUÇÃO</strong></p>
 		<p>Utilizar citação bibliografia informada</p>
 		<p><strong>PERÍODO DE PRODUÇÃO</strong></p>
-		<p>Desde o ano de 2014</p>
+		<p>Desde o ano de 2015</p>
 	</div>
 </div>

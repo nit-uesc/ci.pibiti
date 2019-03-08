@@ -141,6 +141,14 @@ class Home extends CI_Controller {
 		$dados['tela']='/home/resultados2018';
 		$this->load->view('template', $dados);
 	}
+	/*Nova função criada para apontar para os resultados de 2019*/
+	public function resultados2019()
+	{
+		$dados['titulo']='Resultados';
+		$dados['tela']='/home/resultados2018';
+		$this->load->view('template', $dados);
+	}
+
 	public function relatorios()
 	{
 		$dados['titulo']='Relatórios';
@@ -175,6 +183,3 @@ class Home extends CI_Controller {
 	}
 
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */

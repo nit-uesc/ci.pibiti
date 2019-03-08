@@ -1,5 +1,5 @@
 <h1>Resultado Final<small> 2019</small></h1>
-<p class="__opaque __large __underline">Divulgação do resultado final no dia 22 de junho de 2018</p>
+<p class="__opaque __large __underline">Divulgação do resultado final no dia 15 de maio de 2019</p>
 <div class="row">
 	<div class="s12 col">
 		<div class="subtitle">

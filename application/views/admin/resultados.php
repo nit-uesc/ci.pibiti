@@ -6,7 +6,7 @@
 <?php if ($resultados) : ?>
 <div class="portlet z-depth-1">
   <div class="portlet-title blue-grey darken-3 white-text">
-    Avaliações 2016
+    Avaliações 2019
   </div>
   <div class="portlet-body">
     <table class="highlight fixed-table" id="data-table">
@@ -22,13 +22,13 @@
         <?php foreach ($resultados as $resultado) : ?>
         <tr>
           <td><?= $resultado['doc_nome'] ?></td>
-          <td><?= $resultado['proj_titulo'] ?></td> 
+          <td><?= $resultado['proj_titulo'] ?></td>
           <td class="text-align center">
             <?=  $resultado['quantidade_de_avaliacoes_internas'] . '/' . $quantidade_de_avaliadores['interno'] ?>
-          </td> 
+          </td>
           <td class="text-align center">
             <?=  $resultado['quantidade_de_avaliacoes_externas'] . '/' . $quantidade_de_avaliadores['externo'] ?>
-          </td> 
+          </td>
           <td class="text-align center"><?= $resultado['pontuacao'] ?></td>
           <td class="text-align center"><a class="action" href="<?= base_url('admin/detalhar_avaliacao') . '/' . $resultado['proj_id'] ?>" target="_blank">Detalhar</a></td>
         </tr>

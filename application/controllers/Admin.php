@@ -86,12 +86,12 @@ class Admin extends CI_Controller {
 			$avaliador['tipo_avaliador'] = $this->input->post('tipo_avaliador');
 			if ($this->cadastro_model->cadastro_avaliador($avaliador)) {
 				$email_data['email'] 	= $avaliador['email'];
-				$email_data['assunto'] 	= 'AVALIADOR PIBITI/UESC 2016';
+				$email_data['assunto'] 	= 'AVALIADOR PIBITI/UESC 2019';
 				$email_data['mensagem'] = "
 
 					Olá, ".$avaliador['nome']."!
 					<br><br>
-					Você foi cadastrado como avaliador no PIBITI 2017.
+					Você foi cadastrado como avaliador no PIBITI 2019.
 					<br><br>
 					Segue abaixo os seus dados de acesso:
 					<br>
@@ -103,7 +103,7 @@ class Admin extends CI_Controller {
 					<br>
 					Atenciosamente,
 					<br>
-					PIBITI 2016
+					PIBITI 2019
 				";
 				if ($this->email_model->sistema_email($email_data)) {
 					$data['success'] = 'Avaliador cadastrado com sucesso! :)';
@@ -155,6 +155,3 @@ class Admin extends CI_Controller {
         $this->load->view('template_admin', $data);
     }
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */

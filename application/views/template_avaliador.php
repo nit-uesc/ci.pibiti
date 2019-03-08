@@ -11,7 +11,7 @@
 
 		<link href="<?php echo base_url('');?>layout/public/css/main.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
-		<title>PIBITI 2018</title>
+		<title>PIBITI 2019</title>
 	</head>
 	<body id="templateAvaliador">
 		<div class="all">

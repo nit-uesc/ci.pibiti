@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="<?php echo base_url('');?>layout/public/js/jquery-2.2.0.min.js"></script>
 	<style type="text/css"></style>
 
-	<title>PIBITI 2018</title>
+	<title>PIBITI 2019</title>
 </head>
 <body id="generalTemplate"style="background-color: #FCFDFF;">
 	<div class="all">
@@ -67,7 +67,7 @@
 					<li><a href="<?php echo base_url('');?>home/cadastro">Cadastro</a></li>
 					<!-- <li><a href="<?php echo base_url('');?>home/cronograma">Cronograma</a></li> -->
 					<li><a href="<?php echo base_url('');?>home/edital">Edital</a></li>
-					<li><a href="<?php echo base_url('');?>home/resultados2018">Resultados</a></li>
+					<li><a href="<?php echo base_url('');?>home/resultados2019">Resultados</a></li>
 					<!-- <li><a href="<?php echo base_url('');?>home/relatorios">Relatórios</a></li> -->
 					<li><a href="<?php echo base_url('');?>login">Login</a></li>
 				</ul>
@@ -79,7 +79,7 @@
 		<li><a href="<?php echo base_url('');?>home/cadastro">Cadastro</a></li>
 		<!-- <li><a href="<?php echo base_url('');?>home/cronograma">Cronograma</a></li> -->
 		<li><a href="<?php echo base_url('');?>home/edital">Edital</a></li>
-		<li><a href="<?php echo base_url('');?>home/resultados2015">Resultados</a></li>
+		<li><a href="<?php echo base_url('');?>home/resultados2019">Resultados</a></li>
 		<!-- <li><a href="<?php echo base_url('');?>home/relatorios">Relatórios</a></li> -->
 		<li><a href="<?php echo base_url('');?>login">Login</a></li>
 	</ul>
