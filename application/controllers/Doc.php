@@ -63,8 +63,9 @@ class Doc extends CI_Controller {
 	public function plano_trabalho2()
 	{
 		// Por data aqui
+		//
 		$now = time();
-		$end = strtotime('2018-04-23 23:59');
+		$end = strtotime('2019-04-10 23:59');
 
 		// Pode cadastrar
 		// if(true)

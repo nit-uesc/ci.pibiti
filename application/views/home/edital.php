@@ -1,7 +1,7 @@
 <br>
 <div class="row">
 	<div class="col s12">
-		<h3>Edital Nº XX</h4>
+		<h3>Edital Nº 36</h4>
 		<p class="justify">A Reitora da Universidade Estadual de Santa Cruz – UESC, torna pública a abertura de inscrições para o <b>PROGRAMA DE INICIAÇÃO CIENTÍFICO-TECNOLÓGICA DA UESC 2019-2020</b>. Regulamenta o presente Edital a Resolução Normativa N°017/2006 do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Resolução CONSEPE/UESC N° 081/2014, decisões do Comitê Institucional/NIT UESC e do Comitê Externo/CNPq.</p>
 
 		<h4>1. Objetivos</h4>
@@ -34,15 +34,15 @@
 			<tbody>
 				<tr>
 					<td>Lançamento   do Edital</td>
-					<td>11/03/2019</td>
+					<td>12/03/2019</td>
 				</tr>
 				<tr>
 					<td>Cadastro   do orientador </td>
-					<td>11/03/2019 a 10/04/2019</td>
+					<td>12/03/2019 a 10/04/2019</td>
 				</tr>
 				<tr>
 					<td>Encaminhamento    de proposta(s) </td>
-					<td>11/03/2019 a 10/04/2019</td>
+					<td>12/03/2019 a 10/04/2019</td>
 				</tr>
 				<tr>
 					<td>Divulgação    do resultado preliminar</td>
@@ -216,16 +216,16 @@
 			8.2.  A avaliação dos projetos e planos de trabalho será realizada pelos membros do Comitê Institucional/NIT - UESC e Comitê Externo do CNPq.
 		</p>
 		<p class="justify">
-			8.3. O barema com itens de avaliação da produção intelectual do orientador e do projeto de pesquisa está disponível no sistema PIBITI/UESC <a href="#orientadorBarema">nit.uesc.br/pibiti2019</a>.
+			8.3. O barema com itens de avaliação da produção intelectual do orientador e do projeto de pesquisa está disponível no sistema PIBITI/UESC <a href="#orientadorBarema">nit.uesc.br/pibiti</a>.
 		</p>
 		<p class="justify">
 			8.4. A produção intelectual e tecnológica do orientador será analisada considerando as atividades informadas no Currículo Lattes para os últimos 4 (quatro) anos, a partir de 2014. A pontuação do Orientador obedecerá ao estabelecido no quadro disponível sistema PIBITI/UESC, de forma não cumulativa, com peso igual a 25%.
 		</p>
 		<p class="justify">
-			8.5. A pontuação do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#projetoBarema">nit.uesc.br/pibiti2019</a>, de forma não cumulativa, com peso igual a 25% a ser avaliada pelo Comitê Institucional/NIT.
+			8.5. A pontuação do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#projetoBarema">nit.uesc.br/pibiti</a>, de forma não cumulativa, com peso igual a 25% a ser avaliada pelo Comitê Institucional/NIT.
 		</p>
 		<p class="justify">
-			8.6. A pontuação qualitativa do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#avaliacaoBarema">nit.uesc.br/pibiti2019</a>, de forma cumulativa, com peso igual a 50%, e será feita pelo Comitê Externo do CNPq
+			8.6. A pontuação qualitativa do projeto obedecerá ao estabelecido no quadro disponível no site: <a href="#avaliacaoBarema">nit.uesc.br/pibiti</a>, de forma cumulativa, com peso igual a 50%, e será feita pelo Comitê Externo do CNPq
 		</p>
 		<p class="justify">
 			8.7. O projeto e o plano terão pontuação de 0 (zero) a 10 (dez), não sendo aprovado com pontuação abaixo de 5,0 (cinco).
@@ -234,34 +234,42 @@
 			8.8. Caso haja duas ou mais propostas com a mesma pontuação final o desempate será pelo total da nota do avaliador externo.
 		</p>
 
-		<h4>9. Da Implementação das Bolsas</h4>
+		<h4>9. Reconsideração </h4>
 		<p class="justify">
-			9.1. Para implementação das bolsas, uma vez aprovadas, serão necessários os seguintes documentos <strong>impressos</strong>:
+			9.1. Os pedidos de reconsideração, devidamente fundamentados, deverão ser solicitados no Protocolo Geral da UESC, das 8h00 às 12h00 e das 13h30 às 16h00 no prazo estabelecido no cronograma (Item 2 do Edital) e endereçados ao Núcleo de Inovação Tecnológica – NIT/UESC.
 		</p>
 		<p class="justify">
-			9.1.1.Termo de Compromisso e Ficha de Cadastro do bolsista (Disponíveis <a href= "<?php echo base_url('/anexos/662aef013926059aeb8b160f811959cf.docx');?>"><b>aqui</b></a>)
+			9.2. Não será permitida solicitação de reconsideração para a modalidade CNPq.
+		</p>
+
+		<h4>10. Da Implementação das Bolsas</h4>
+		<p class="justify">
+			10.1. Para implementação das bolsas, uma vez aprovadas, serão necessários os seguintes documentos <strong>impressos</strong>:
+		</p>
+		<p class="justify">
+			10.1.1.Termo de Compromisso e Ficha de Cadastro do bolsista (Disponíveis <a href= "<?php echo base_url('/anexos/662aef013926059aeb8b160f811959cf.docx');?>"><b>aqui</b></a>)
  			assinados pelo orientador e pelo bolsista;
 		</p>
 		<p class="justify">
-			9.1.2. Histórico escolar do bolsista com CRAA e Comprovante de matrícula 2019 assinado pela instituição;
+			10.1.2. Histórico escolar do bolsista com CRAA e Comprovante de matrícula 2019 assinado pela instituição;
 		</p>
 		<p class="justify">
-			9.1.3. Fotocópia do CPF e do RG do bolsista;
+			10.1.3. Fotocópia do CPF e do RG do bolsista;
 		</p>
 		<p class="justify">
-			9.1.4. Comprovante de residência atualizado do bolsista;
+			10.1.4. Comprovante de residência atualizado do bolsista;
 		</p>
 		<p class="justify">
-			9.1.5. Extrato de conta bancária do Banco do Brasil em nome do bolsista (Para bolsas do CNPq);
+			10.1.5. Extrato de conta bancária do Banco do Brasil em nome do bolsista (Para bolsas do CNPq);
 		</p>
 		<p class="justify">
-			9.1.6. Extrato de conta bancária de qualquer banco em nome do bolsista (Para bolsas ICTB/UESC);
+			10.1.6. Extrato de conta bancária de qualquer banco em nome do bolsista (Para bolsas ICTB/UESC);
 		</p>
 		<p class="justify">
-			9.2. Os documentos impressos mencionados no item 9.1 deverão ser, obrigatoriamente, entregues pelo bolsista indicado no Núcleo de Inovação Tecnológica NIT - UESC.
+			10.2. Os documentos impressos mencionados no item 9.1 deverão ser, obrigatoriamente, entregues pelo bolsista indicado no Núcleo de Inovação Tecnológica NIT - UESC.
 		</p>
 		<p class="justify">
-			9.2.1. Horário de funcionamento do Núcleo de Inovação Tecnológica (NIT): Das 07:30 às 12:00 e das 13:30 às 16:00.
+			10.2.1. Horário de funcionamento do Núcleo de Inovação Tecnológica (NIT): Das 07:30 às 12:00 e das 13:30 às 16:00.
 			</p>
 		<b>Aos bolsistas CNPq</b>
 		<p class="justify">
@@ -275,33 +283,33 @@
 		1) Comparecer à Gerência de Recursos Humanos (GERHU) portando carteira de trabalho para assinatura do Termo de Compromisso, em data a ser informada no site do PIBITI/UESC após a entrega da documentação. O aluno que não comparecer no período solicitado terá a bolsa implementada posteriormente, sem direito a pagamento retroativo (ver GERHU).
 	</p>
 
-		<h4>10. Disposições Gerais</h4>
+		<h4>11. Disposições Gerais</h4>
 		<p class="justify">
-			10.1. A submissão da solicitação implica o aceite automático de todos os termos deste Edital e das normas específicas do CNPq.
+			11.1. A submissão da solicitação implica o aceite automático de todos os termos deste Edital e das normas específicas do CNPq.
 		</p>
 		<p class="justify">
-			10.2. Não serão analisadas solicitações de orientadores com pendências junto o NIT ou a PROPP/UESC, conforme Resolução CONSEPE/UESC N° 081/2014.
+			11.2. Não serão analisadas solicitações de orientadores com pendências junto o NIT ou a PROPP/UESC, conforme Resolução CONSEPE/UESC N° 081/2014.
 		</p>
 		<p class="justify">
-			10.3. O resultado final da seleção será divulgado no endereço <a target="_blank" href="<?php echo base_url('home/resultados2019');?>">http://nit.uesc.br/pibiti/resultados</a>.
+			11.3. O resultado final da seleção será divulgado no endereço <a target="_blank" href="<?php echo base_url('home/resultados2019');?>">http://nit.uesc.br/pibiti/resultados</a>.
 		</p>
 		<p class="justify">
-			10.4. Para as propostas aprovadas que envolvam pesquisas com seres humanos, com organismos geneticamente modificados ou com animais, o orientador deverá encaminhar ao NIT o nº de protocolo de solicitação de parecer ao Comitê de Ética correspondente ou o parecer de aprovação. A não apresentação dessa documentação resultará em não implementação da bolsa.
+			11.4. Para as propostas aprovadas que envolvam pesquisas com seres humanos, com organismos geneticamente modificados ou com animais, o orientador deverá encaminhar ao NIT o nº de protocolo de solicitação de parecer ao Comitê de Ética correspondente ou o parecer de aprovação. A não apresentação dessa documentação resultará em não implementação da bolsa.
 		</p>
 		<p class="justify">
-			10.5. As propostas que envolvam o acesso ao Patrimônio Genético Nacional e/ou Conhecimento Tradicional Associado deverão observar os termos dispostos na Lei nº 13.123/2015 e no seu decreto de regulamentação, Decreto n° 8.772/2016. Para maiores informações acesse o link <a target="_blank" href="https://goo.gl/6pWiuS">https://goo.gl/6pWiuS</a>.
+			11.5. As propostas que envolvam o acesso ao Patrimônio Genético Nacional e/ou Conhecimento Tradicional Associado deverão observar os termos dispostos na Lei nº 13.123/2015 e no seu decreto de regulamentação, Decreto n° 8.772/2016. Para maiores informações acesse o link <a target="_blank" href="https://goo.gl/6pWiuS">https://goo.gl/6pWiuS</a>.
 		</p>
 		<p class="justify">
-			10.6. O número total de bolsas será distribuído pela classificação geral das propostas aprovadas, observado a prioridade de um bolsista (plano de trabalho) por projeto qualificado. Entre a possibilidade de deixar um orientador com dois bolsistas ou atribuir uma primeira bolsa a outro orientador, esta última opção terá prioridade.
+			11.6. O número total de bolsas será distribuído pela classificação geral das propostas aprovadas, observado a prioridade de um bolsista (plano de trabalho) por projeto qualificado. Entre a possibilidade de deixar um orientador com dois bolsistas ou atribuir uma primeira bolsa a outro orientador, esta última opção terá prioridade.
 		</p>
 		<p class="justify">
-			10.7. Em caso de concessão de bolsas adicionais por parte do CNPq, da UESC ou outra Instituição de Fomento, para a vigência 2018/2019 estas serão distribuídas de acordo com normas locais e com as recomendações do financiador, respeitando o Banco de Reserva.
+			11.7. Em caso de concessão de bolsas adicionais por parte do CNPq, da UESC ou outra Instituição de Fomento, para a vigência 2018/2019 estas serão distribuídas de acordo com normas locais e com as recomendações do financiador, respeitando o Banco de Reserva.
 		</p>
 		<p class="justify">
-			10.8. Esclarecimentos sobre este Edital e informações adicionais sobre o Programa de Iniciação Científico-Tecnológica, poderão ser obtidas exclusivamente pelo e-mail <b>nit@uesc.br</b>.
+			11.8. Esclarecimentos sobre este Edital e informações adicionais sobre o Programa de Iniciação Científico-Tecnológica, poderão ser obtidas exclusivamente pelo e-mail <b>nit@uesc.br</b>.
 		</p>
 		<p class="justify">
-			10.9. Os casos omissos serão analisados e decididos pelo Comitê Institucional/NIT - UESC.
+			11.9. Os casos omissos serão analisados e decididos pelo Comitê Institucional/NIT - UESC.
 		</p>
 		<hr>
 		<h3>***</h3>
