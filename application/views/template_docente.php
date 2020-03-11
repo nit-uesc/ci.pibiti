@@ -10,7 +10,7 @@
     <link href="<?php echo base_url('');?>layout/public/css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
     <style type="text/css"></style>
-    <title>PIBITI 2019</title>
+    <title>PIBITI 2020</title>
   </head>
   <body id="templateDoc">
     <div class="all">

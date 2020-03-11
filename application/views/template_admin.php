@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
     <style type="text/css"></style>
 
-    <title>PIBITI 2017</title>
+    <title>PIBITI 2020</title>
   </head>
   <body id="templateAdmin">
     <div class="all">
