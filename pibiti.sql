@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 09, 2018 at 09:25 AM
+-- Generation Time: Mar 11, 2020 at 09:06 AM
 -- Server version: 5.5.37
 -- PHP Version: 5.6.28
 
@@ -209,6 +209,10 @@ CREATE TABLE IF NOT EXISTS `criterio_orientador` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT AUTO_INCREMENT=6 ;
 
+--
+-- Dumping data for table `criterio_orientador`
+--
+
 INSERT INTO `criterio_orientador` (`id`, `descricao`, `pontuacao`) VALUES
 (1, 'Com bolsa de produtividade em Desenvolvimento Tecnológico e Extensão Inovadora (DT) ou em Pesquisa', 5),
 (2, 'Produção média acima de 1 artigo científico/ano em Qualis A nos últimos 3 anos', 4),
@@ -371,7 +375,7 @@ CREATE TABLE IF NOT EXISTS `docente` (
   `up` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`doc_id`),
   KEY `doc` (`doc_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=31 ;
 
 -- --------------------------------------------------------
 
@@ -555,7 +559,14 @@ CREATE TABLE IF NOT EXISTS `usuario` (
   `usu_data` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `teste` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`usu_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=31 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=32 ;
+
+--
+-- Dumping data for table `usuario`
+--
+
+INSERT INTO `usuario` (`usu_id`, `type`, `ntry`, `usu_login`, `usu_senha`, `usu_data`, `teste`) VALUES
+(31, 1, 0, 'admin', '445592c17d0076c0c235341c0f7ca75bb010bc82', '2020-03-11 12:03:26', 0);
 
 --
 -- Constraints for dumped tables

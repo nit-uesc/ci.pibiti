@@ -20,7 +20,7 @@ class Home extends CI_Controller {
 	public function cadastro()
 	{
 		$now = time();
-		$end = strtotime('');
+		$end = strtotime('2020-05-01 23:59');
 
 		// Pode cadastrar
 		if($now < $end)
