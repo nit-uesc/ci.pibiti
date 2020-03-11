@@ -34,31 +34,31 @@
 			<tbody>
 				<tr>
 					<td>Lançamento   do Edital</td>
-					<td>12/03/2019</td>
+					<td>16/03/2020</td>
 				</tr>
 				<tr>
-					<td>Cadastro   do orientador </td>
-					<td>12/03/2019 a 10/04/2019</td>
+					<td>Cadastro do orientador </td>
+					<td>16/03/2020 a 27/04/2020</td>
 				</tr>
 				<tr>
-					<td>Encaminhamento    de proposta(s) </td>
-					<td>12/03/2019 a 10/04/2019</td>
+					<td>Encaminhamento de proposta(s) </td>
+					<td>16/03/2020 a 27/04/2020</td>
 				</tr>
 				<tr>
 					<td>Divulgação    do resultado preliminar</td>
-					<td>10/05/2019</td>
+					<td>15/05/2020</td>
 				</tr>
 				<tr>
-					<td>Pedido    de reconsideração </td>
-					<td>13 e 14/05/2019</td>
+					<td>Pedido de reconsideração </td>
+					<td>16 e 17/05/2020</td>
 				</tr>
 				<tr>
 					<td>Divulgação    do resultado final</td>
-					<td>15/05/2019</td>
+					<td>18/05/2020</td>
 				</tr>
 				<tr>
 					<td>Indicação do bolsista e entrega de documentação </td>
-					<td>16/05/2019 a 17/06/2019</td>
+					<td>19/05/2020 a 26/06/2020</td>
 				</tr>
 			</tbody>
 		</table>
