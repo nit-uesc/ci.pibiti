@@ -1,8 +1,9 @@
 <br>
 <div class="row">
 	<div class="col s12">
-		<h3>Edital Nº 36</h4>
-		<p class="justify">A Reitora da Universidade Estadual de Santa Cruz – UESC, torna pública a abertura de inscrições para o <b>PROGRAMA DE INICIAÇÃO CIENTÍFICO-TECNOLÓGICA DA UESC 2019-2020</b>. Regulamenta o presente Edital a Resolução Normativa N°017/2006 do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Resolução CONSEPE/UESC N° 081/2014, decisões do Comitê Institucional/NIT UESC e do Comitê Externo/CNPq.</p>
+		<h3>EDITAL UESC Nº 028/2020</h3>
+        <h4>PROGRAMA DE INICIAÇÃO CIENTÍFICO-TECNOLÓGICA DA UESC 2020-2021 MODALIDADES PIBITI/CNPq e ICTB/UESC</h4>
+        <p class="justify">O Reitor da Universidade Estadual de Santa Cruz – UESC torna pública a abertura de inscrições para o <strong>PROGRAMA DE INICIAÇÃO CIENTÍFICO-TECNOLÓGICA DA UESC 2020-2021.</strong> Regulamenta o presente Edital a Resolução Normativa N° 017/2006 do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Resolução CONSEPE/UESC N° 081/2014, decisões do Comitê Institucional/NIT UESC e do Comitê Externo/CNPq.</p> 
 
 		<h4>1. Objetivos</h4>
 		<p class="justify">
@@ -34,31 +35,31 @@
 			<tbody>
 				<tr>
 					<td>Lançamento   do Edital</td>
-					<td>16/03/2020</td>
+					<td>01/04/2020</td>
 				</tr>
 				<tr>
 					<td>Cadastro do orientador </td>
-					<td>16/03/2020 a 27/04/2020</td>
+					<td>01/04/2020 a 11/05/2020</td>
 				</tr>
 				<tr>
 					<td>Encaminhamento de proposta(s) </td>
-					<td>16/03/2020 a 27/04/2020</td>
+					<td>01/04/2020 a 11/05/2020</td>
 				</tr>
 				<tr>
 					<td>Divulgação    do resultado preliminar</td>
-					<td>15/05/2020</td>
+					<td>27/05/2020</td>
 				</tr>
 				<tr>
 					<td>Pedido de reconsideração </td>
-					<td>16 e 17/05/2020</td>
+					<td>28 e 29/05/2020</td>
 				</tr>
 				<tr>
 					<td>Divulgação    do resultado final</td>
-					<td>18/05/2020</td>
+					<td>04/06/2020</td>
 				</tr>
 				<tr>
 					<td>Indicação do bolsista e entrega de documentação </td>
-					<td>19/05/2020 a 26/06/2020</td>
+					<td>05 a 30/06/2020</td>
 				</tr>
 			</tbody>
 		</table>
@@ -88,13 +89,13 @@
 			<tbody>
 				<tr>
 					<td>CNPq</td>
-					<td>01/08/19 a 31/07/20</td>
+					<td>01/08/20 a 31/07/21</td>
 					<td>09</td>
 					<td>400,00</td>
 				</tr>
 				<tr>
 					<td>ICTB/UESC</td>
-					<td>01/08/19 a 31/07/20</td>
+					<td>01/08/20 a 31/07/21</td>
 					<td>10</td>
 					<td>400,00</td>
 				</tr>

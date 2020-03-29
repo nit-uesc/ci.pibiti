@@ -73,7 +73,7 @@ class Login extends CI_Controller {
 				// echo var_dump($dados);
 				// echo "</pre>";
                 $now = time();
-                $start = strtotime('2020-03-15 23:59');
+                $start = strtotime('2020-03-31 23:59');
 				switch($rs['check']->type):
 					CASE '1':
 						redirect('admin', 'refresh');
