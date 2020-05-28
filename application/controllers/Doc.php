@@ -65,7 +65,7 @@ class Doc extends CI_Controller {
 		// Por data aqui
 		//
 		$now = time();
-		$end = strtotime('2020-05-11 23:59');
+		$end = strtotime('2020-05-19 23:59');
 
 		// Pode cadastrar
 		// if(true)

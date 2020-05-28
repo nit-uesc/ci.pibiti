@@ -21,7 +21,7 @@ class Home extends CI_Controller {
 	{
 		$now = time();
         $start = strtotime('2020-03-31 23:59');
-		$end = strtotime('2020-05-11 23:59');
+		$end = strtotime('2020-05-19 23:59');
 
 		// Pode cadastrar
 		if($now > $start && $now < $end)

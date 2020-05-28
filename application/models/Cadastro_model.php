@@ -27,12 +27,11 @@ class Cadastro_model extends CI_Model {
 		$this -> db -> insert('projeto', $dados);
 		$this -> db -> trans_complete();
 
-		if ($this -> db -> trans_status() === FALSE) :
+        if ($this -> db -> trans_status() === FALSE) {
 			return false;
-		else :
+        } else {
 			return true;
-		endif;
-
+        }
 	}
 
 	function cadastrar_plano($dados) {

@@ -40,27 +40,27 @@
                 </tr>
                 <tr>
                     <td>Cadastro do orientador </td>
-                    <td>01/04/2020 a 11/05/2020</td>
+                    <td>01/04/2020 a 19/05/2020</td>
                 </tr>
                 <tr>
                     <td>Encaminhamento de proposta(s) </td>
-                    <td>01/04/2020 a 11/05/2020</td>
+                    <td>01/04/2020 a 19/05/2020</td>
                 </tr>
                 <tr>
                     <td>Divulgação    do resultado preliminar</td>
-                    <td>27/05/2020</td>
+                    <td>01/06/2020</td>
                 </tr>
                 <tr>
                     <td>Pedido de reconsideração </td>
-                    <td>28 e 29/05/2020</td>
+                    <td>02 e 03/06/2020</td>
                 </tr>
                 <tr>
                     <td>Divulgação    do resultado final</td>
-                    <td>04/06/2020</td>
+                    <td>05/06/2020</td>
                 </tr>
                 <tr>
                     <td>Indicação do bolsista e entrega de documentação </td>
-                    <td>05 a 30/06/2020</td>
+                    <td>08/06/2020 a 03/07/2020</td>
                 </tr>
             </tbody>
         </table>
@@ -91,7 +91,7 @@
                 <tr>
                     <td>CNPq</td>
                     <td>01/08/20 a 31/07/21</td>
-                    <td>09</td>
+                    <td>*</td>
                     <td>400,00</td>
                 </tr>
                 <tr>
@@ -174,8 +174,8 @@
         <hr>
         <p class="center-align">
             <br class="hide-on-med-and-up">
-            <a target="_blank" href="<?php echo base_url('anexos/acc4b74467f63f28ba56294621142d8c.rtf'); ?>" class="btn">Anexo I (projeto)</a>
-            <a target="_blank" href="<?php echo base_url('anexos/cba4fea378e39a78da40a4a9e71c23e9.rtf'); ?>" class="btn">Anexo II (plano)</a>
+            <a target="_blank" href="<?php echo base_url('anexos/ANEXOI.rtf'); ?>" class="btn">Anexo I (projeto)</a>
+            <a target="_blank" href="<?php echo base_url('anexos/ANEXOII.rtf'); ?>" class="btn">Anexo II (plano)</a>
             <br class="hide-on-med-and-up">
             <br class="hide-on-med-and-up">
             <br class="hide-on-med-and-up">
@@ -245,17 +245,18 @@
         </p>
 
         <h4>10. Da Implementação das Bolsas</h4>
+        <p>Os bolsistas contemplados deverão encaminhar toda a documentação exigida em formato PDF para o e-mail nit.pibiti@uesc.br no prazo estabelecido no cronograma (Item 2 do Edital). A não entrega da documentação completa no período estabelecido ocasionará em desclassificação, sendo convocado o banco de reserva.</p>
         <p class="justify">
-            10.1. Para implementação das bolsas, uma vez aprovadas, serão necessários os seguintes documentos <strong>impressos</strong>:
+            10.1. Deverão ser anexados em formato PDF os seguintes documentos: 
         </p>
         <p class="justify">
-            10.1.1.Termo de Compromisso e Ficha de Cadastro do bolsista (Disponíveis em <a href="http://nit.uesc.br/pibiti">http://nit.uesc.br/pibiti</a>) assinados pelo orientador e pelo bolsista;
+            10.1.1. Termo de Compromisso e Ficha de Cadastro do bolsista (Disponíveis em <a href="http://nit.uesc.br/pibiti">http://nit.uesc.br/pibiti</a>) assinados pelo orientador e pelo bolsista;
         </p>
         <p class="justify">
-            10.1.2. Histórico escolar do bolsista com CRAA e Comprovante de matrícula 2020 assinado pela instituição;
+            10.1.2. Documento de identificação do bolsista – RG;
         </p>
         <p class="justify">
-            10.1.3. Fotocópia do CPF e do RG do bolsista;
+            10.1.3. Documento de identificação do bolsista – CPF (caso já conste no RG não há necessidade de envio;
         </p>
         <p class="justify">
             10.1.4. Comprovante de residência atualizado do bolsista;
@@ -266,15 +267,12 @@
         <p class="justify">
             10.1.6. Extrato de conta bancária de qualquer banco em nome do bolsista (Para bolsas ICTB/UESC);
         </p>
-        <p class="justify">
-            10.2. Os documentos impressos mencionados no item 9.1 deverão ser, obrigatoriamente, entregues pelo bolsista indicado no Núcleo de Inovação Tecnológica NIT - UESC.
+        <p>
+            10.1.7 Fotocópia digitalizada da carteira de trabalho (Para bolsas ICTB/UESC).
         </p>
-        <p class="justify">
-            10.2.1. Horário de funcionamento do Núcleo de Inovação Tecnológica (NIT): Das 07:30 às 12:00 e das 13:30 às 16:00.
-            </p>
         <b>Aos bolsistas CNPq</b>
         <p class="justify">
-            No início de agosto o CNPq enviará um email para o bolsista solicitando a emissão online do aceite da bolsa. O email só será enviado para os discentes que tiverem o currículo Lattes atualizado na Plataforma Chagas. Caso haja algum problema com o currículo do bolsista haverá redução no período de vigência da bolsa.
+            No início de agosto o CNPq enviará um email para o bolsista solicitando a emissão on line do aceite da bolsa. O email só será enviado para os discentes que tiverem o currículo Lattes atualizado na Plataforma Chagas. Caso haja algum problema com o currículo do bolsista haverá redução no período de vigência da bolsa.
         </p>
         <b>Aos bolsistas ICTB</b>
         <p class="justify">
@@ -284,33 +282,33 @@
         1) Comparecer à Gerência de Recursos Humanos (GERHU) portando carteira de trabalho para assinatura do Termo de Compromisso, em data a ser informada no site do PIBITI/UESC após a entrega da documentação. O aluno que não comparecer no período solicitado terá a bolsa implementada posteriormente, sem direito a pagamento retroativo (ver GERHU).
     </p>
 
-        <h4>11. Disposições Gerais</h4>
+        <h4>Disposições Gerais</h4>
         <p class="justify">
-            11.1. A submissão da solicitação implica o aceite automático de todos os termos deste Edital e das normas específicas do CNPq.
+            11. A submissão da solicitação implica o aceite automático de todos os termos deste Edital e das normas específicas do CNPq. 
         </p>
         <p class="justify">
-            11.2. Não serão analisadas solicitações de orientadores com pendências junto o NIT ou a PROPP/UESC, conforme Resolução CONSEPE/UESC N° 081/2014.
+            12. Não serão analisadas solicitações de orientadores com pendências junto ao NIT ou a PROPP/UESC, conforme Resolução CONSEPE/UESC N° 081/2014.
         </p>
         <p class="justify">
-            11.3. O resultado final da seleção será divulgado no endereço <a target="_blank" href="<?php echo base_url('home/resultados2020');?>">http://nit.uesc.br/pibiti/resultados</a>.
+            13. O resultado final da seleção será divulgado no endereço <a target="_blank" href="<?php echo base_url('home/resultados2020');?>">http://nit.uesc.br/pibiti/resultados</a>.
         </p>
         <p class="justify">
-            11.4. Para as propostas aprovadas que envolvam pesquisas com seres humanos, com organismos geneticamente modificados ou com animais, o orientador deverá encaminhar ao NIT o nº de protocolo de solicitação de parecer ao Comitê de Ética correspondente ou o parecer de aprovação. A não apresentação dessa documentação resultará em não implementação da bolsa.
+            14. Para as propostas aprovadas que envolvam pesquisas com seres humanos, com organismos geneticamente modificados ou com animais, o orientador deverá encaminhar ao NIT o nº de protocolo de solicitação de parecer ao Comitê de Ética correspondente ou o parecer de aprovação. A não apresentação dessa documentação resultará em não implementação da bolsa.  14. Para as propostas aprovadas que envolvam pesquisas com seres humanos, com organismos geneticamente modificados ou com animais, o orientador deverá encaminhar ao NIT o nº de protocolo de solicitação de parecer ao Comitê de Ética correspondente ou o parecer de aprovação. A não apresentação dessa documentação resultará em não implementação da bolsa.
         </p>
         <p class="justify">
-            11.5. As propostas que envolvam o acesso ao Patrimônio Genético Nacional e/ou Conhecimento Tradicional Associado deverão observar os termos dispostos na Lei nº 13.123/2015 e no seu decreto de regulamentação, Decreto n° 8.772/2016. Para maiores informações acesse o link <a target="_blank" href="https://goo.gl/6pWiuS">https://goo.gl/6pWiuS</a>.
+            15. As propostas que envolvam o acesso ao Patrimônio Genético Nacional e/ou Conhecimento Tradicional Associado deverão observar os termos dispostos na Lei nº 13.123/2015 e no seu decreto de regulamentação, Decreto n° 8.772/2016. Para maiores informações acesse o <a href="http://nit.uesc.br/portal/wp-content/uploads/2018/04/F%C3%B4lder-sobre-o-a-Lei-de- Biodiversidade.pdf">link</a>.
         </p>
         <p class="justify">
-            11.6. O número total de bolsas será distribuído pela classificação geral das propostas aprovadas, observado a prioridade de um bolsista (plano de trabalho) por projeto qualificado. Entre a possibilidade de deixar um orientador com dois bolsistas ou atribuir uma primeira bolsa a outro orientador, esta última opção terá prioridade.
+16. O número total de bolsas será distribuído pela classificação geral das propostas aprovadas, observado a prioridade de um bolsista (plano de trabalho) por projeto qualificado. Entre a possibilidade de deixar um orientador com dois bolsistas ou atribuir uma primeira bolsa a outro orientador, esta última opção terá prioridade.
         </p>
         <p class="justify">
-            11.7. Em caso de concessão de bolsas adicionais por parte do CNPq, da UESC ou outra Instituição de Fomento, para a vigência 2018/2019 estas serão distribuídas de acordo com normas locais e com as recomendações do financiador, respeitando o Banco de Reserva.
+            17. Em caso de concess√£o de bolsas adicionais por parte do CNPq, da UESC ou outra Institui√ß√£o de Fomento, para a vig√™ncia 2018/2019 estas ser√£o distribu√≠das de acordo com normas locais e com as recomenda√ß√µes do financiador, respeitando o Banco de Reserva.
         </p>
         <p class="justify">
-            11.8. Esclarecimentos sobre este Edital e informações adicionais sobre o Programa de Iniciação Científico-Tecnológica, poderão ser obtidas exclusivamente pelo e-mail <b><a href="nit.pibiti@uesc.br">nit.pibiti@uesc.br</a></b>.
+            18. Esclarecimentos sobre este Edital e informações adicionais sobre o Programa de Iniciação Científico-Tecnológica, poderão ser obtidas exclusivamente pelo e-mail <b><a href="nit.pibiti@uesc.br">nit.pibiti@uesc.br</a></b>.
         </p>
         <p class="justify">
-            11.9. Os casos omissos serão analisados e decididos pelo Comitê Institucional/NIT - UESC.
+19. Os casos omissos serão analisados e decididos pelo Comitê Institucional/NIT - UESC.
         </p>
         <hr>
         <h3>***</h3>
@@ -440,6 +438,6 @@
         <p><strong>PRODUÇÃO</strong></p>
         <p>Utilizar citação bibliografia informada</p>
         <p><strong>PERÍODO DE PRODUÇÃO</strong></p>
-        <p>Desde o ano de 2015</p>
+        <p>Desde o ano de 2016</p>
     </div>
 </div>
