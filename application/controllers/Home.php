@@ -146,7 +146,14 @@ class Home extends CI_Controller {
 	public function resultados2019()
 	{
 		$dados['titulo']='Resultados';
-		$dados['tela']='/home/resultados2018';
+		$dados['tela']='/home/resultados2019';
+		$this->load->view('template', $dados);
+	}
+
+	public function resultados2020()
+	{
+		$dados['titulo']='Resultados';
+		$dados['tela']='/home/resultados2020';
 		$this->load->view('template', $dados);
 	}
 
@@ -156,6 +163,7 @@ class Home extends CI_Controller {
 		$dados['tela']='/home/relatorios';
 		$this->load->view('template', $dados);
 	}
+
 	private function sucess()
 	{
 		$dados['titulo']='Sucesso';

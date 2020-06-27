@@ -250,7 +250,7 @@
             10.1. Deverão ser anexados em formato PDF os seguintes documentos: 
         </p>
         <p class="justify">
-            10.1.1. Termo de Compromisso e Ficha de Cadastro do bolsista (Disponíveis em <a href="http://nit.uesc.br/pibiti">http://nit.uesc.br/pibiti</a>) assinados pelo orientador e pelo bolsista;
+            10.1.1. Termo de Compromisso e Ficha de Cadastro do bolsista (Disponíveis em <a href="<?php echo base_url('anexos/termo.docx'); ?>">http://nit.uesc.br/pibiti</a>) assinados pelo orientador e pelo bolsista;
         </p>
         <p class="justify">
             10.1.2. Documento de identificação do bolsista – RG;
